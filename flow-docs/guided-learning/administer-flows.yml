@@ -1,0 +1,33 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: Administrar fluxos
+metadata:
+  title: Administrar fluxos | Microsoft Flow
+  description: Saiba mais sobre como usar as políticas de proteção de dados e ambientes para gerenciar as fontes de dados e fluxos.
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      Saiba mais sobre como usar as políticas de proteção de dados e ambientes para gerenciar as fontes de dados e fluxos.
+  - title: Usar ambientes para gerenciar fluxos
+    durationInMinutes: 8
+    content: |
+      > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
+
+      [!INCLUDE [learning-environments](../includes/learning-environments.md)]
+  - title: Usar políticas de prevenção de perda de dados
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
+
+      [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
+  - content: |
+      Você concluiu a seção **Administrar fluxos** da Aprendizagem Guiada do Microsoft Flow.
