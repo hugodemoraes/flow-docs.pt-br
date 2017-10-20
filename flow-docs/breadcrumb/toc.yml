@@ -1,0 +1,11 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+    - name: Fluxo
+      tocHref: /flow/
+      topicHref: /flow/
+      items:
+        - name: Aprendizagem Guiada
+          tocHref: /flow/guided-learning/
+          topicHref: /flow/guided-learning/

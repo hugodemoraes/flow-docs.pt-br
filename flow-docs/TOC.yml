@@ -1,0 +1,138 @@
+- name: Introdução
+  items:
+    - name: Introdução
+      href: getting-started.md
+    - name: Inscreva-se
+      href: sign-up-sign-in.md
+    - name: Criar um fluxo de um modelo
+      href: get-started-logic-template.md
+    - name: Crie um fluxo a partir do zero
+      href: get-started-logic-flow.md
+    - name: Criar um fluxo de equipe
+      href: create-team-flows.md
+    - name: Visão geral dos ambientes
+      href: environments-overview-maker.md
+    - name: Perguntas frequentes
+      href: frequently-asked-questions.md
+- name: Criar um fluxo
+  items:
+    - name: Adicionar uma ação
+      href: multi-step-logic-flow.md
+    - name: Adicionar uma condição
+      href: add-condition.md
+    - name: Executar um fluxo em um agendamento
+      href: run-scheduled-tasks.md
+    - name: Disparar um fluxo com email
+      href: email-triggers.md
+    - name: Processar uma lista de itens
+      href: apply-to-each.md
+    - name: Usar operações de dados
+      href: data-operations.md
+    - name: Filtro e copiar dados
+      href: odata-filters.md
+    - name: Criar um fluxo com Dynamics 365
+      href: connection-dynamics365.md
+    - name: Adicionar dados ao Common Data Service
+      href: common-data-model-intro.md
+    - name: Assistir a um fluxo
+      href: see-a-flow-run.md
+    - name: Publicar um modelo
+      href: publish-a-template.md
+    - name: Solucionar problemas de um fluxo
+      href: fix-flow-failures.md
+- name: Criar fluxos de aprovação
+  items:
+    - name: Aprovações únicas
+      href: modern-approvals.md
+    - name: Aprovações sequenciais
+      href: sequential-modern-approvals.md
+    - name: Aprovações paralelas
+      href: parallel-modern-approvals.md
+    - name: Aprovações integradas
+      href: common-data-model-approve.md
+- name: Usar o aplicativo móvel
+  items:
+    - name: Crie um fluxo
+      href: mobile-create-flow.md
+    - name: Criar um fluxo de botão
+      href: introduction-to-button-flows.md
+    - name: Criar um fluxo de botão que usa tokens de gatilho
+      href: introduction-to-button-trigger-tokens.md
+    - name: Criar um fluxo de botão com entrada do usuário
+      href: button-flow-with-user-input-tokens.md
+    - name: Compartilhar um botão
+      href: share-buttons.md
+    - name: Monitorar a atividade do fluxo
+      href: mobile-monitor-activity.md
+    - name: Gerenciar seus fluxos
+      href: mobile-manage-flows.md
+- name: Usar dispositivos físicos
+  items:
+    - name: Usar um Flic
+      href: flic-button-flows.md
+    - name: Usar um botão
+      href: bttn-button-flows.md
+- name: Conexões
+  items:
+    - name: Conexões disponíveis
+      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
+    - name: Gerenciar conexões
+      href: add-manage-connections.md
+    - name: Gerenciar gateways
+      href: gateway-manage.md
+    - name: Entender os gateways
+      href: gateway-reference.md
+- name: 'Desenvolver: desenvolvedores corporativos'
+  items:
+    - name: Microsoft Flow para desenvolvedores corporativos
+      href: dev-enterprise-intro.md
+    - name: Registrar e usar conectores personalizados
+      href: register-custom-api.md
+    - name: Descrever um conector personalizado com o Postman
+      href: postman-collection.md
+    - name: Extensões de OpenAPI para conectores personalizados
+      href: customapi-how-to-swagger.md
+    - name: Usar o Azure Active Directory com um conector personalizado
+      href: customapi-azure-resource-manager-tutorial.md
+    - name: Criar um conector personalizado para uma API Web
+      href: customapi-web-api-tutorial.md
+    - name: Use um webhook para disparar um fluxo
+      href: customapi-webhooks.md
+- name: 'Desenvolver: parceiros e ISVs'
+  items:
+    - name: Microsoft Flow para parceiros e ISVs da Microsoft
+      href: dev-isv-partner-intro.md
+    - name: Visão geral de certificação dos conectores da API
+      href: api-connector-overview.md
+    - name: Desenvolver conectores da API para certificação
+      href: api-connector-dev.md
+    - name: Enviar conectores da API para certificação
+      href: api-connector-submission.md
+    - name: Perguntas frequentes para certificar os conectores da API
+      href: api-connector-faq.md
+    - name: Integrar em sites e outras tecnologias
+      href: embed-flow-dev.md
+    - name: Permitir que os clientes testem os fluxos
+      href: dev-appsource-test-drive.md
+- name: Administração
+  items:
+    - name: Fluxos nas P e R de sua organização
+      href: organization-q-and-a.md
+    - name: Preços
+      href: billing-questions.md
+    - name: Introdução ao centro de administração
+      href: admin-center-introduction.md
+    - name: Administrar ambientes
+      href: environments-overview-admin.md
+    - name: Definir uma política para ajudar a evitar a perda de dados
+      href: prevent-data-loss.md
+    - name: Introdução aos grupos de dados
+      href: introduction-to-data-groups.md
+- name: Referência
+  items:
+    - name: Visão geral das regiões
+      href: regions-overview.md
+    - name: Limites e configuração
+      href: limits-and-config.md
+    - name: Notas de versão
+      href: release-notes.md
