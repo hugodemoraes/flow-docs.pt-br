@@ -45,7 +45,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
             title: Saiba mais sobre os botões
-          - href: 'https://flow.microsoft.com/blog/automation-for-recruiters'
+          - href: 'https://aka.ms/flowoftheweek'
             html: <p>Ficar inspirado pelo fluxo da semana</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
