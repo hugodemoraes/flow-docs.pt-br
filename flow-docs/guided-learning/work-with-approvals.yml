@@ -1,9 +1,8 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: Trabalhar com aprovações
+title: "Trabalhar com aprovações"
 metadata:
-  title: Trabalhar com aprovações | Microsoft Flow
-  description: Saiba como gerenciar a aprovação de documentos e processos no Microsoft Flow.
+  title: "Trabalhar com aprovações | Microsoft Flow"
+  description: "Saiba como gerenciar a aprovação de documentos e processos no Microsoft Flow."
   audience: Business User
   level: Beginner
   nextTutorialHref: administer-flows
@@ -16,20 +15,25 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      Saiba como gerenciar a aprovação de documentos e processos no Microsoft Flow.
-  - title: Criar um fluxo de aprovação
-    durationInMinutes: 4
-    content: |
-      > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
+- durationInMinutes: 1
+  content: "Saiba como gerenciar a aprovação de documentos e processos no Microsoft Flow.\n"
+  ms.openlocfilehash: 1967e986e5bf7a9ffceb13578b41710869d8e890
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 11/07/2017
+- title: "Criar um fluxo de aprovação"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
 
-      [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
-  - title: Processar uma solicitação de aprovação
-    durationInMinutes: 7
-    content: |
-      > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
 
-      [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
-  - content: |
-      Você concluiu a seção **Trabalhar com aprovações** da Aprendizagem Guiada do Microsoft Flow.
+    [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
+- title: "Processar uma solicitação de aprovação"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
+
+
+    [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
+- content: "Você concluiu a seção **Trabalhar com aprovações** da Aprendizagem Guiada do Microsoft Flow.\0"
