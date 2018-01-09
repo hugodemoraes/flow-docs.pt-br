@@ -1,6 +1,6 @@
 ---
-title: Alternar ambientes ao criar um Microsoft Flow | Microsoft Docs
-description: "Como um criador utiliza ambientes diferentes durante a criação de um Microsoft Flow"
+title: Saiba mais sobre os ambientes do Microsoft Flow| Microsoft Docs
+description: Saiba como usar ambientes para isolar seus fluxos
 services: 
 suite: flow
 documentationcenter: na
@@ -13,70 +13,79 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/27/2016
+ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: bcbb566c20291da14881d771c538dd89689b6b1d
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="choosing-an-environment"></a>Escolhendo um ambiente
-Com o Microsoft Flow, é possível trabalhar em ambientes diferentes e trocar facilmente entre eles. O escopo deste artigo abordará os seguintes tópicos no ambiente:
 
-* Histórico do que os ambientes fornecem
-* Alternância de ambientes
-* Como criar um fluxo no ambiente certo
+Este artigo o apresenta aos **ambientes** do Microsoft Flow, nos quais é possível criar e isolar com segurança seus fluxos, gateways, conexões e outros recursos.
+
+Você saberá mais sobre:
+
+* Os recursos que os ambientes fornecem.
+* Alternância entre ambientes.
+* Como criar um fluxo no ambiente certo.
 
 ## <a name="environments-overview"></a>Visão geral de ambientes
-Os ambientes fornecem um limite de isolamento para seus fluxos, conexões, gateways e outros recursos. Ao criar um fluxo, é possível escolher em qual ambiente hospedá-lo e os recursos usados por este fluxo. Você pode usar diferentes ambientes em cenários diferentes.
 
-Alguns exemplos:
+Ao criar um fluxo, você escolhe em qual ambiente hospedá-lo e os recursos usados por esse fluxo. Você pode usar ambientes separados para cenários diferentes.
 
-* Você está criando um fluxo que usa uma conexão com o Serviço de Dados Comuns da Microsoft. Nesse cenário, o fluxo e o Serviço de Dados Comuns residem no mesmo ambiente. Isso garante que todos os dados estejam isolados dentro desse ambiente (limite de isolamento).
-* Você está criando um fluxo para seu departamento de Recursos Humanos. Você deseja garantir que somente usuários no departamento de Recursos Humanos tenham acesso ao fluxo. Por exemplo, você não quer que seu Grupo de vendas utilize o fluxo. Nesse cenário, é possível usar um ambiente separado, no qual somente os usuários de RH têm permissão para hospedar o fluxo e qualquer recurso que utilize o fluxo, incluindo gateways ou conexões.
-* Na Europa, há usuários que utilizam um fluxo para mostrar dados do SharePoint. Nesse cenário, crie um ambiente na Europa que hospeda o fluxo e a conexão do SharePoint. Esse ambiente da Europa oferece o melhor desempenho aos usuários europeus, já que todos os recursos são locais para Europa (localidade dos dados).
+## <a name="here-are-a-few-scenarios-for-using-environments"></a>Aqui estão alguns cenários de uso de ambientes
 
-Os ambientes são criados pelos administradores do Microsoft Flow. Esses administradores também controlam quem tem acesso a ambientes diferentes.
+Cenário|Recomendação
+-----|-----
+Você deseja criar um fluxo que use uma conexão com Common Data Service da Microsoft.|Coloque seu fluxo e o Common Data Service no mesmo ambiente. Isso garante que todos os dados estejam isolados dentro desse ambiente (limite de isolamento).
+Você está criando um fluxo para seu departamento de Recursos Humanos. Você deseja garantir que somente usuários no departamento de Recursos Humanos tenham acesso ao fluxo.|Crie um ambiente e adicione apenas os usuários de RH a ele. Coloque o fluxo e quaisquer outros recursos usados por ele nesse ambiente.
+Na Europa, há usuários que utilizam um fluxo para mostrar dados do SharePoint.|Crie um ambiente na Europa, depois crie seu fluxo e a conexão do SharePoint nele. Esse ambiente da Europa oferece o melhor desempenho aos usuários europeus, já que todos os recursos são locais para a Europa (localidade dos dados).
 
-Este tópico mostra como navegar entre ambientes diferentes. Para obter detalhes sobre como criá-los e gerenciá-los, consulte [administrar ambientes](environments-overview-admin.md).
+Para criar ambientes, você deve ser um administrador do Microsoft Flow. Administradores controlam quem tem acesso aos ambientes. Para obter detalhes sobre como criar e gerenciar ambientes, consulte o tópico [administrar ambientes](environments-overview-admin.md).
 
 ## <a name="switching-environments"></a>Alternância de ambientes
-O Microsoft Flow facilita a alternância entre ambientes. Ao alternar, você está vendo todos os itens nesse ambiente específico. Você não está vendo os itens em qualquer outro ambiente.
+
+O Microsoft Flow facilita a alternância entre ambientes. Ao alternar ambientes, você vê apenas os itens que são criados nesse ambiente específico e não vê nem tem acesso aos itens em nenhum outro ambiente.
 
 Veja um exemplo.
 
-Criar um fluxo chamado *NewEmployee* no ambiente *Recursos Humanos*. Em [flow.microsoft.com](http://flow.microsoft.com), abra o ambiente de *Vendas*. O fluxo *NewEmployee* não está listado. Para ver o fluxo *NewEmployee* fluxo, abra o ambiente *Recursos Humanos*. Lembre-se de que isso se aplica a qualquer item que você criar no ambiente, incluindo conexões, gateways, PowerApps e muito mais.
+Você criou um fluxo chamado *NewEmployee* no ambiente *Recursos Humanos*. Em [Microsoft Flow](https://flow.microsoft.com), você abre o ambiente de *Vendas*. O fluxo *NewEmployee* não está listado. Para ver o fluxo *NewEmployee* fluxo, abra o ambiente *Recursos Humanos*. Lembre-se de que as mesmas regras se aplicam a quaisquer outros itens criados por você no ambiente, incluindo conexões, gateways, fluxos e muito mais.
 
-1. Abra [flow.microsoft.com](http://flow.microsoft.com).
-2. No canto superior direito, você verá seu nome e o ambiente em que está:  
-   ![](./media/environments-overview-maker/default-environment.png)
-   
-    Na imagem, observe as notificações. Essas notificações são específicas ao fluxo nesse ambiente padrão.
-3. Selecione seu nome. Na lista suspensa, todos os ambientes disponíveis são listados. Seu ambiente atual é verificado:  
-   ![](./media/environments-overview-maker/all-environments.png)
-4. Para alternar para outro ambiente, selecione o ambiente na lista:  
-   ![](./media/environments-overview-maker/select-europe.png)
-5. O Microsoft Flow alterna automaticamente para o novo ambiente:  
-   ![](./media/environments-overview-maker/europe-environment.png)
-   
-    Na imagem, observe que não há notificações. O novo ambiente Europa não tem notificações.
+Siga estas etapas para alternar os ambientes:
+
+1. Entre no [Microsoft Flow](https://flow.microsoft.com).
+1. No canto superior direito, você verá uma imagem que representa o seu perfil.
+
+   ![Imagem de perfil](./media/environments-overview-maker/default-environment.png)
+
+1. Selecione a imagem. Uma lista suspensa exibe todos os ambientes disponíveis para você. O ambiente no qual você está conectado no momento é verificado:
+
+   ![lista da imagem de ambientes](./media/environments-overview-maker/all-environments.png)
+1. Para alternar para outro ambiente, selecione o ambiente na lista:
+
+   ![selecione um ambiente para o qual alternar](./media/environments-overview-maker/select-europe.png)
+1. O Microsoft Flow alterna para o novo ambiente.
 
 ## <a name="create-flows-in-the-right-environment"></a>Criar fluxos no ambiente certo
-Antes de criar um fluxo, verifique se selecionou o ambiente desejado para o fluxo. Caso contrário, será necessário excluir e recriar o fluxo no ambiente correto.
 
-Considere os seguintes fatores ao escolher o ambiente para criar os fluxos:
+Antes de criar um fluxo, selecione o ambiente no qual você adicionará o fluxo e seus recursos.
 
-* Os gateways são criados no ambiente Padrão. Os gateways não podem ser criados em outros ambientes, então se quiser conectar-se a dados locais, você precisará usar o ambiente Padrão.
-* Os fluxos podem usar somente conexões e outros recursos no mesmo ambiente. Não podem usar recursos em outro ambiente. Por exemplo, você está criando um fluxo que usa um conector personalizado. Esse conector personalizado deve estar no mesmo ambiente que o fluxo.
-* O banco de dados do Serviço de Dados Comuns da Microsoft está sempre ligado a exatamente um ambiente. Isso significa que, caso queira trabalhar com os dados do Serviço de Dados Comuns, você deverá selecionar o mesmo ambiente que o banco de dados está.
-* Você verá todos os ambientes nos quais é possível editar recursos. Porém, isso não significa que você pode criar novos recursos em todos os ambientes. Deste modo, pode ser que você não consiga criar novos fluxos em alguns ambientes. Você precisa solicitar ao administrador para adicioná-lo como um **Criador** a esse ambiente, ou escolha um ambiente diferente para criar o fluxo (sempre será possível criar fluxos no ambiente padrão).
+> [!NOTE]
+Caso crie um fluxo no ambiente errado, será preciso excluí-lo e depois criá-lo no ambiente correto.
 
-## <a name="what-you-did"></a>O que você fez
-Usando essas etapas, você troca entre ambientes que têm permissões de uso. Agora, vamos começar a criar seus fluxos.
+Considere os seguintes fatores ao escolher um ambiente no qual hospedar seus fluxos:
+
+* Você só pode criar gateways no ambiente padrão. Então, se deseja usar um gateway para conectar seu fluxo a dados locais, você precisará usar o ambiente padrão.
+* Bancos de dados do Common Data Service da Microsoft são associados a um ambiente específico. Portanto, se deseja criar um fluxo que use o Common Data Service, você deve criar o fluxo no ambiente que hospeda o banco de dados.
+* Você verá todos os ambientes nos quais é possível editar recursos. No entanto, será preciso solicitar que um administrador adicione você como um criador em todos os ambientes nos quais você deseja criar fluxos.
+
+> [!NOTE]
+Você sempre poderá criar fluxos no ambiente padrão.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Criar um fluxo a partir de um modelo](get-started-logic-template.md)  
-[Criar um fluxo](get-started-logic-flow.md)  
-[Visão geral do ambiente para Administradores](environments-overview-admin.md)
 
+* [Criar um fluxo a partir de um modelo](get-started-logic-template.md)
+* [Criar um fluxo](get-started-logic-flow.md)
+* [Visão geral do ambiente para Administradores](environments-overview-admin.md)
