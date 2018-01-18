@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
-ms.openlocfilehash: 6a05153864e37682ece83d8e5d90fa43a3ad01e1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
+ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="flow-in-your-organization-qa"></a>P e R sobre o Flow em sua organização
 Este tópico descreve como os usuários em sua organização podem usar o Flow e como você pode controlar o serviço do Flow.
@@ -101,12 +101,12 @@ Remover a licença ou o serviço do Flow de um usuário da organização resulta
 Observe que isso removerá apenas o bloco do Flow por padrão. O usuário ainda poderá usar o Microsoft Flow individualmente.
 
 ### <a name="why-did-10000-licenses-for-microsoft-flow-show-up-in-my-office-365-tenant"></a>Por que 10.000 licenças do Microsoft Flow foram exibidas em meu locatário do Office 365?
-Qualquer pessoa ao redor do mundo pode experimentar o Microsoft Flow Plano 1 ou 2 por 90 dias. Essas licenças de avaliação representam a capacidade disponível para novos usuários do Flow em seu locatário. Não há qualquer custo para essas licenças. Especificamente, há duas razões possíveis por ser exibida uma capacidade de 10.000 licenças (avaliação) do Flow no portal de administração do Office 365:
+Qualquer pessoa pode experimentar o plano do Microsoft Flow 1 ou 2 por 90 dias e essas licenças de avaliação representam a capacidade disponível para novos usuários do Flow em seu locatário. Não há qualquer custo para essas licenças. Especificamente, há duas razões possíveis por ser exibida uma capacidade de 10.000 licenças (avaliação) do Flow no portal de administração do Office 365:
 
 1. Se pelo menos um usuário em seu locatário tiver participado em uma visualização pública do Flow ocorrida de abril de 2016 a outubro de 2016. Dessa forma, você verá 10.000 licenças rotuladas como "Microsoft PowerApps e Fluxos de lógica"
    
     ![](./media/organization-q-and-a/licenses2.png)
-2. Se pelo menos um usuário em seu locatário tiver se inscrito em uma avaliação do Flow Plano 2 através de uma inscrição de avaliação **Opção 1** descrita na seção [Como os usuários se inscrevem no PowerApps](#how-do-users-sign-up-for-powerapps). Dessa forma, você verá 10.000 licenças rotuladas como "Microsoft PowerApps e Flow"
+2. Se pelo menos um usuário em seu locatário tiver se inscrito em uma avaliação do Flow Plano 2 através de uma inscrição de avaliação **Opção 1** descrita na seção [Como os usuários se inscrevem no PowerApps](#how-do-people-sign-up-for-flow). Dessa forma, você verá 10.000 licenças rotuladas como "Microsoft PowerApps e Flow"
    
     ![](./media/organization-q-and-a/licenses1.png)
 
