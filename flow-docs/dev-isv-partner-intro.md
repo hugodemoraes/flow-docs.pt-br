@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 3709f8e9bb09171a8e31a8b64695d064f0b8146a
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="microsoft-flow-for-isvs-and-microsoft-partners"></a>Microsoft Flow para ISVs e parceiros Microsoft
 Como um parceiro da Microsoft ou ISV, você pode acelerar a adoção do cliente ao estender seus produtos para integrar dados de seus clientes e processos de negócios. Crie conectores que permitem que os clientes conectem seus produtos pelo Microsoft Flow. Você pode gerar novos clientes potenciais para a sua empresa pela criação de aplicativos e publicá-los no AppSource para novos clientes para testar.
