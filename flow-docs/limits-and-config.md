@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2017
+ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
-ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
+ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
+ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/05/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limites e configuração no Microsoft Flow
 Este tópico contém informações sobre os limites atuais e detalhes da configuração para os fluxos.
@@ -48,7 +48,7 @@ Estes são os limites para executar um único fluxo.
 
 | Nome | Limite | Anotações |
 | --- | --- | --- |
-| Duração da execução |30 dias |Inclui fluxos de trabalho com etapas pendentes como aprovações. As etapas pendentes atingirão o tempo limite após 30 dias. |
+| Duração da execução |30 dias |Inclui fluxos de trabalho com etapas pendentes como aprovações. Após 30 dias, o tempo de qualquer etapa pendente se esgotará. As aprovações que atingiram o tempo limite serão removidas do centro de aprovação. Se alguém tentar aprovar uma solicitação que tenha atingido o tempo limite, ele receberá uma mensagem de erro. |
 | Retenção de armazenamento |30 dias |Isso é a partir do início da execução. |
 | Intervalo de recorrência mín. |1 minuto | |
 | Intervalo de recorrência máx. |500 dias | |
@@ -107,7 +107,7 @@ As chamadas feitas de uma API conectada por meio de um fluxo (por exemplo, API d
 | Estados Unidos |104.43.232.28, 104.43.232.242, 104.43.235.249, 104.43.234.211, 52.160.93.247, 52.160.91.66, 52.160.92.131, 52.160.95.100, 40.117.101.91, 40.117.98.246, 40.117.101.120, 40.117.100.191 |
 | Estados Unidos (Primeiro Acesso) |52.161.26.191, 52.161.27.42, 52.161.29.40, 52.161.26.33, 13.66.213.240, 13.66.214.51, 13.66.210.166, 13.66.213.29 |
 
-Por exemplo, se forem necessários endereços IP da lista de permissões para seu banco de dados SQL do Azure, você deverá usar esses endereços.
+Por exemplo, se for necessário autorizar endereços IP para seu Banco de Dados SQL do Azure, você deverá usar esses endereços.
 
 A tabela a seguir lista os serviços aos quais o Microsoft Flow se conecta. Certifique-se de que nenhum desses serviços esteja bloqueado na sua rede.
 
