@@ -10,16 +10,16 @@ editor:
 tags: 
 ms.service: flow
 ms.devlang: na
-ms.topic: article
+ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 06b0198ffa75a3de673460dc13037205f58ad515
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Entender os gateways de dados locais para o Microsoft Flow
 Use o gateway de dados local com o Microsoft Flow para estabelecer conexões seguras para as fontes de dados locais, como o Microsoft SQL Server.
@@ -28,7 +28,7 @@ Use o gateway de dados local com o Microsoft Flow para estabelecer conexões seg
 ### <a name="prerequisites"></a>Pré-requisitos
 Mínimos:
 
-* [.NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653)
+* [.NET Framework 4.6](https://www.microsoft.com/download/details.aspx?id=48130)
 * Versão de 64 bits do Windows 7 ou Windows Server 2008 R2 (ou posterior)
 
 Recomendados:
@@ -49,7 +49,7 @@ Considerações relacionadas:
 > 
 > 
 
-1. [Baixe o instalador](http://go.microsoft.com/fwlink/?LinkID=820931) e execute-o.
+1. [Baixe o instalador](https://go.microsoft.com/fwlink/?LinkID=820931) e execute-o.
    
     ![Executar o instalador](./media/gateway-reference/run-installer.png)
 2. Na primeira tela do assistente de instalação, selecione **Próximo** para confirmar o lembrete sobre a instalação de um gateway em um laptop.
@@ -81,18 +81,25 @@ Considerações relacionadas:
 O gateway é executado como um serviço Windows e, assim como qualquer outro serviço Windows, você pode iniciá-lo e pará-lo de várias maneiras. Por exemplo, você pode abrir um prompt de comando com permissões elevadas no computador no qual o gateway está em execução e executar um destes comandos:
 
 * Para interromper o serviço, execute este comando:
-  
-    ````net stop PBIEgwService````
+
+```batchfile
+    net stop PBIEgwService
+```
+
 * Para iniciar o serviço, execute este comando:
-  
-    ````net start PBIEgwService````
+
+```batchfile
+    net start PBIEgwService
+```
 
 ## <a name="configure-a-firewall-or-proxy"></a>Configurar um firewall ou proxy
 Para obter informações sobre como fornecer informações de proxy para o gateway, consulte [Definir configurações de proxy](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/).
 
 Você pode verificar se o firewall ou proxy, pode estar bloqueando conexões, executando o comando a seguir em um prompt do PowerShell. Este comando testa a conectividade com o Barramento de Serviço do Azure. O comando testa apenas a conectividade de rede e não afeta o serviço do servidor de nuvem ou o gateway. Ele ajuda a determinar se seu computador pode acessar a Internet.
 
-````Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350````
+```powershell
+Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+```
 
 Os resultados devem ser semelhantes à saída abaixo. Se **TcpTestSucceeded** não for *verdadeiro*, você poderá ser bloqueado por um firewall.
 
@@ -157,7 +164,7 @@ Esta não é a conta usada para conectar as fontes de dados locais, a conta corp
 **Resposta:** não. O gateway usa conexões de saída para o Barramento de Serviço do Azure.
 
 **Pergunta:** e se eu bloquear conexões de saída? O que é necessário abrir?
-**Resposta:** consulte as [portas](gateway-reference.md#ports) e os hosts que o gateway usa.
+**Resposta:** consulte as [portas](gateway-reference.md#configure-ports) e os hosts que o gateway usa.
 
 **Pergunta:** o gateway precisa ser instalado no mesmo computador que a fonte de dados?
 **Resposta:** não. O gateway será conectado à fonte de dados usando as informações de conexão fornecidas. Considere o gateway como um aplicativo cliente nesse sentido. Ele só precisa ser capaz de se conectar ao nome do servidor fornecido.
