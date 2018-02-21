@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/22/2017
 ms.author: deonhe
-ms.openlocfilehash: 0e0309793cfcb45ca7ee72910803a4abc27d2f26
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>Criar um fluxo de aprovação que exige a aprovação de todos
 Este passo a passo mostra como criar um fluxo de trabalho de aprovação que exige a aprovação de todos (todos os aprovadores atribuídos) para um pedido de férias ser aprovado, mas qualquer aprovador pode rejeitar toda a solicitação.
@@ -28,12 +28,12 @@ Esse tipo de fluxo de trabalho de aprovação é útil em uma organização que 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 * Acesso ao [Microsoft Flow](https://flow.microsoft.com), Office 365 Outlook e usuários do Office 365.
-* Uma [lista](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) do SharePoint Online.
+* Uma [lista](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) do SharePoint Online.
   
     Este passo a passo pressupõe que você já criou uma lista do SharePoint Online usada para pedir férias. Consulte o passo a passo de [aprovações paralelas](parallel-modern-approvals.md) para obter um exemplo avançado que detalha a aparência das suas listas do SharePoint.
 * Familiaridade com os conceitos básicos de criação de fluxos.
   
-    Você pode examinar como adicionar [ações, disparadores](multi-step-logic-flow.md#add-another-action) e [condições](add-a-condition.md). As etapas a seguir pressupõem que você sabe como executar essas ações.
+    Você pode examinar como adicionar [ações, disparadores](multi-step-logic-flow.md#add-another-action) e [condições](add-condition.md). As etapas a seguir pressupõem que você sabe como executar essas ações.
 
 > [!NOTE]
 > Enquanto usamos o SharePoint Online e o Outlook do Office 365 neste passo a passo, você pode usar outros serviços, como Zendesk, Salesforce, Gmail ou qualquer um dos mais de [150 serviços](https://flow.microsoft.com/connectors/) com suporte do Microsoft Flow.

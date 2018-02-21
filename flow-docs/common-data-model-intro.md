@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: a63ccacb1e6d9bd63d5a11a8db6ea01a9fc37333
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Crie um fluxo que utiliza o Common Data Service
 Melhore a eficiência operacional com uma exibição unificada de dados de negócios com a criação de fluxo que usa o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implante esse banco de dados de negócios seguro que inclui entidades de negócios padrão bem formadas (como Vendas, Compras, Atendimento ao cliente e Produtividade) em sua organização. Armazene dados organizacionais em uma ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem várias vantagens sobre fontes de dados externas, como o Microsoft Excel e Salesforce.
@@ -37,7 +37,7 @@ Por exemplo, aproveite o Common Data Service no Microsoft Flow das seguintes pri
 
 * Inscreva-se no [Microsoft Flow](https://flow.microsoft.com) e [PowerApps](https://web.powerapps.com).
   
-    Se você tiver problemas, verifique se o [Microsoft Flow](sign-up-sign-in.md) e [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) dão suporte ao tipo de conta que você tem e se sua organização não bloqueou a inscrição.
+    Se você tiver problemas, verifique se o [Microsoft Flow](sign-up-sign-in.md) e [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) dão suporte ao tipo de conta que você tem e se sua organização não bloqueou a inscrição.
 * Se você não tiver usado o Common Data Service antes, abra a guia **Entidades** guia de [powerapps.com](https://web.powerapps.com/#/entities) e clique ou toque em **Criar meu banco de dados**.
 
 ## <a name="sign-in-to-your-environment"></a>Entre no seu Ambiente

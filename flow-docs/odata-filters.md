@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 37b53fa50afdc6865c5ba905957405f0e4b67520
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Filtrar e copiar dados com o Microsoft Flow
 Este passo a passo mostra como criar um fluxo que monitora uma origem para itens novos ou alterados e, em seguida, copia as alterações para um destino. Você pode criar um fluxo como este se seus usuários inserem dados em um local, mas sua equipe precisa deles em um local ou formato diferente.
 
-Embora este passo a passo copie dados de uma [lista](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (a origem) do Microsoft SharePoint para uma tabela (destino) do [Banco de dados SQL do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) , você pode copiar dados entre qualquer um dos mais de [150 serviços](https://flow.microsoft.com/connectors/) que aos quais o Microsoft Flow oferece suporte.
+Embora este passo a passo copie dados de uma [lista](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (a origem) do Microsoft SharePoint para uma tabela (destino) do [Banco de dados SQL do Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) , você pode copiar dados entre qualquer um dos mais de [150 serviços](https://flow.microsoft.com/connectors/) que aos quais o Microsoft Flow oferece suporte.
 
 > [!IMPORTANT]
 > As alterações feitas no destino não são copiadas para a fonte porque não há suporte para as sincronizações bidirecionais. Se você tentar configurar uma sincronização bidirecional, criará um loop infinito, onde as alterações são enviadas indefinidamente entre a origem e destino.
@@ -35,7 +35,7 @@ Embora este passo a passo copie dados de uma [lista](https://support.office.com/
 * Acesso a uma fonte de dados e um destino. Este passo a passo não inclui etapas para criar a origem e o destino.
 * acesso ao [Microsoft Flow](https://flow.microsoft.com).
 * Um entendimento básico de como os dados estão armazenados.
-* Familiaridade com os conceitos básicos de criação de fluxos. Você pode examinar como adicionar [ações, disparadores](multi-step-logic-flow.md#add-another-action) e [condições](add-a-condition.md). As etapas a seguir pressupõem que você sabe como executar essas ações.
+* Familiaridade com os conceitos básicos de criação de fluxos. Você pode examinar como adicionar [ações, disparadores](multi-step-logic-flow.md#add-another-action) e [condições](add-condition.md). As etapas a seguir pressupõem que você sabe como executar essas ações.
 
 > [!TIP]
 > Cada nome de coluna na origem e no destino não precisa corresponder, mas você deve fornecer dados para todas as colunas *necessárias* ao inserir ou atualizar um item. O Microsoft Flow identifica os campos obrigatórios para você.

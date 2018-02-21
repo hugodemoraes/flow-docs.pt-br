@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: 41c416557dbb491432448c33369767f9705278c9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Criar um loop de aprovação com o Microsoft Flow e o Common Data Service da Microsoft
 O Common Data Service pode fornecer uma maneira de criar fluxos que tenham informações armazenadas em um banco de dados, independente de um fluxo. O melhor exemplo disso é com as aprovações. Se você armazenar o status da aprovação em uma entidade, o fluxo poderá trabalhar com ele.
@@ -34,7 +34,7 @@ Seguindo as etapas nesta seção, você criará:
 
 **Pré-requisitos**
 
-* Inscreva-se no [Microsoft Flow](sign-up-sign-in.md) e [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
+* Inscreva-se no [Microsoft Flow](sign-up-sign-in.md) e [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
 * Crie conexões com o Dropbox e Office 365 Outlook, como descrito em [Gerenciar suas conexões](https://powerapps.microsoft.com/tutorials/add-manage-connections/).
 
 ## <a name="build-the-entity"></a>Criar a entidade
