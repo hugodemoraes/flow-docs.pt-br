@@ -1,6 +1,6 @@
 - name: Get started
   items:
-    - name: Introdução
+    - name: Get started
       href: getting-started.md
     - name: Inscreva-se
       href: sign-up-sign-in.md
@@ -50,6 +50,8 @@
       href: sequential-modern-approvals.md
     - name: Aprovações paralelas
       href: parallel-modern-approvals.md
+    - name: Todos têm de aprovar
+      href: all-assigned-must-approve.md
     - name: Aprovações integradas
       href: common-data-model-approve.md
 - name: Usar o aplicativo móvel
