@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: fe05ce536b61887f52ea4e297457c71ead3e8bfd
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Crie e teste um fluxo de trabalho de aprovação com o Microsoft Flow
-Com o Microsoft Flow, você pode gerenciar a aprovação de documentos ou processos em vários serviços, inclusive no SharePoint, Dynamics CRM, Salesforce, OneDrive para Empresas, Zendesk ou WordPress.
+Com o Microsoft Flow, é possível gerenciar a aprovação de documentos ou de processos em vários serviços, inclusive no SharePoint, Dynamics CRM, Salesforce, OneDrive para Empresas, Zendesk ou WordPress.
 
 Para criar um fluxo de trabalho de aprovação, adicione a ação **Aprovações - Iniciar uma aprovação** a qualquer fluxo. Depois de adicionar esta ação, o fluxo pode gerenciar a aprovação de documentos ou processos. Por exemplo, você pode criar fluxos de aprovação de documento que aprovam faturas, ordens de trabalho ou cotações de venda. Você também pode criar fluxos de aprovação de processo que aprovam as solicitações de férias, trabalho de horas extras ou planos de viagem.
 
-Os aprovadores gerenciam solicitações de sua caixa de entrada de email, [o centro de aprovação](https://flow.microsoft.com/manage/approvals/received/) no site do Microsoft Flow ou o aplicativo do Microsoft Flow.
+Os aprovadores podem responder a solicitações de sua caixa de entrada de email, [o centro de aprovações](https://flow.microsoft.com/manage/approvals/received/) no site do Microsoft Flow ou do aplicativo do Microsoft Flow.
 
 ## <a name="create-an-approval-flow"></a>Criar um fluxo de aprovação
 Aqui está uma visão geral do fluxo que iremos criar e testar:
@@ -129,4 +129,3 @@ Agora que você criou e testou seu fluxo, informe às outras pessoas sobre como 
 * Crie [fluxos de aprovação sequencial.](sequential-modern-approvals.md)
 * Crie [fluxos de aprovação paralela.](parallel-modern-approvals.md)
 * Instale o aplicativo móvel Microsoft Flow para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios), ou [Windows Phone](https://aka.ms/flowmobilewindows).
-

@@ -13,62 +13,71 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/22/2017
+ms.date: 02/27/2018
 ms.author: deonhe
-ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: b7cf57ad343433f50a918e3a09710fbb1e3325de
+ms.sourcegitcommit: 79fc1e439640c6329bac884085eb66e71f63ab63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>Criar um fluxo de aprovação que exige a aprovação de todos
+
 Este passo a passo mostra como criar um fluxo de trabalho de aprovação que exige a aprovação de todos (todos os aprovadores atribuídos) para um pedido de férias ser aprovado, mas qualquer aprovador pode rejeitar toda a solicitação.
 
 Esse tipo de fluxo de trabalho de aprovação é útil em uma organização que exige a aprovação do gerente de uma pessoa, e do gerente do gerente, para que um pedido de férias seja aprovado. No entanto, qualquer um dos gerentes pode recusar o pedido sem a aceitação ou recusa da outra pessoa.
 
+> [!NOTE]
+> Embora este passo a passo destaque um cenário de aprovação de férias, é possível usar esse tipo de fluxo de aprovação em qualquer situação em que são necessários vários aprovadores para aprovar uma solicitação.
+>
+>
+
 ## <a name="prerequisites"></a>Pré-requisitos
-* Acesso ao [Microsoft Flow](https://flow.microsoft.com), Office 365 Outlook e usuários do Office 365.
-* Uma [lista](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) do SharePoint Online.
-  
-    Este passo a passo pressupõe que você já criou uma lista do SharePoint Online usada para pedir férias. Consulte o passo a passo de [aprovações paralelas](parallel-modern-approvals.md) para obter um exemplo avançado que detalha a aparência das suas listas do SharePoint.
+
+* Acesso ao [Microsoft Flow](https://flow.microsoft.com), Microsoft Office 365 Outlook e usuários do Microsoft Office 365.
+* Uma lista do [SharePoint](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194).
+
+    Este passo a passo pressupõe que você criou uma lista do SharePoint usada para solicitar férias. Consulte o passo a passo de [aprovações paralelas](parallel-modern-approvals.md) para obter um exemplo aprofundado que detalha a aparência das suas listas do SharePoint.
 * Familiaridade com os conceitos básicos de criação de fluxos.
-  
+
     Você pode examinar como adicionar [ações, disparadores](multi-step-logic-flow.md#add-another-action) e [condições](add-condition.md). As etapas a seguir pressupõem que você sabe como executar essas ações.
 
 > [!NOTE]
-> Enquanto usamos o SharePoint Online e o Outlook do Office 365 neste passo a passo, você pode usar outros serviços, como Zendesk, Salesforce, Gmail ou qualquer um dos mais de [150 serviços](https://flow.microsoft.com/connectors/) com suporte do Microsoft Flow.
-> 
-> 
+> Embora usemos o SharePoint e o Office 365 Outlook neste passo a passo, é possível usar outros serviços, como Zendesk, Salesforce, Gmail ou qualquer um dos mais de [200 serviços](https://flow.microsoft.com/connectors/) com suporte do Microsoft Flow.
+>
+>
 
 ## <a name="create-the-flow"></a>Criar o fluxo
+
 > [!NOTE]
 > Se você não tiver criado uma conexão com o SharePoint ou Office 365, siga as instruções quando receber a solicitação para entrar.
-> 
-> 
+>
+>
 
 Este passo a passo usa tokens. Para exibir a lista de tokens, toque ou clique em qualquer controle de entrada e, em seguida, procure o token na lista **Conteúdo dinâmico** que é aberta.
 
 Entre no [Microsoft Flow](https://flow.microsoft.com) e, em seguida, execute as seguintes etapas para criar seu fluxo.
 
-1. Selecione **Meus fluxos** > **Criar de um modelo em branco**.
-2. Adicione o gatilho **SharePoint - Quando um item for criado ou modificado**.
-3. Insira o **Endereço do Site** para o site do SharePoint que hospeda sua lista de pedidos de férias e, em seguida, selecione a lista na caixa **Nome da Lista**.
-4. Adicione a ação **Usuários do Office 365 - Obter gerente** e, em seguida, adicione o token **Criado por Email** à caixa **Usuário (UPN)**.
-   
-    O token **Criado por Email** está localizado na categoria **Quando um item for criado ou modificado** da lista **Conteúdo dinâmico**.
-5. Adicione outra ação **Usuários do Office 365 - Obter gerente** e, em seguida, adicione o token **Email** à caixa **Usuário (UPN)**.
-   
-    O token **Email** está localizado sob a categoria **Obter gerente** da lista **Conteúdo dinâmico**.
-   
-    Você também pode renomear o cartão **Obter gerente 2** para algo significativo como "Ignorar gerente de nível".
-6. Adicione a ação **Iniciar uma aprovação** e selecione **Todos da lista atribuída** na lista **Tipo aprovação**.
-   
+1. Selecione **Meus fluxos** > **Criar do zero**, na parte superior direita da tela.
+1. Adicione o gatilho **SharePoint - Quando um item for criado ou modificado**.
+1. Insira o **Endereço do Site** para o site do SharePoint que hospeda sua lista de solicitações de férias e, em seguida, selecione a lista **Nome da Lista**.
+1. Adicione a ação **Usuários do Office 365 – Obter V2 do gerente**, selecione a caixa **Usuário (UPN)** e, em seguida, adicione o token **Criado por email** a ela.
+
+    O token **Criado por Email** está localizado na categoria **Quando um item for criado ou modificado** da lista **Conteúdo dinâmico**. Esse token fornece acesso de maneira dinâmica a dados sobre o gerente para a pessoa que criou o item no SharePoint.
+
+1. Adicione outra ação **Usuários do Office 365 – Obter V2 do gerente** e, em seguida, adicione o token **Email** à caixa **Usuário (UPN)**.
+
+    O token **Email** está localizado sob a categoria **Obter V2 2 do gerente** da lista **Conteúdo dinâmico**. Esse token fornece de maneira dinâmica acesso ao endereço de email para o gerente do gerente.
+
+    Também é possível renomear o cartão **Obter V2 2 do gerente** para algo significativo como "Ignorar gerente de nível".
+1. Adicione a ação **Iniciar uma aprovação** e selecione **Todos da lista atribuída** na lista **Tipo aprovação**.
+
    > [!IMPORTANT]
    > Se qualquer aprovador rejeitar, o pedido de aprovação será considerada rejeitada por todos os aprovadores.
-   > 
-   > 
-7. Use a tabela a seguir como guia para concluir o cartão **Iniciar uma aprovação**.
-   
+   >
+   >
+1. Use a tabela a seguir como guia para concluir o cartão **Iniciar uma aprovação**.
+
    | Campo | Descrição |
    | --- | --- |
    |  Tipo de aprovação |Use **Qualquer pessoa da lista atribuída** para indicar que qualquer um dos aprovadores pode aprovar ou rejeitar o pedido. </p>Use **Todos da lista atribuída** para indicar que um pedido só será aprovado se todos concordarem, e o pedido será negado se uma única pessoa o rejeitar. |
@@ -77,25 +86,26 @@ Entre no [Microsoft Flow](https://flow.microsoft.com) e, em seguida, execute as 
    |  Detalhes |Quaisquer informações adicionais que você deseja enviar aos aprovadores listados no campo **Atribuído a**. |
    |  Link do item |Uma URL para o item de aprovação. Neste exemplo, é um link para o item no SharePoint. |
    |  Descrição do link do item |Uma descrição de texto para o **Link do item**. |
-   
+
    > [!TIP]
    > A ação **Iniciar uma aprovação** fornece vários tokens, incluindo **Resposta** e **Resumo da resposta**. Use esses tokens em seu fluxo para fornecer relatórios avançados dos resultados de uma execução de um fluxo de pedido de aprovação.
-   > 
-   > 
-   
+   >
+   >
+
     O cartão **Iniciar uma aprovação** é um modelo para o pedido de aprovação enviado aos aprovadores. Configure-o de um jeito útil para a sua organização. Veja um exemplo.
-   
+
     ![iniciar uma aprovação](media/all-assigned-must-approve/start-an-approval-card.png)
-8. Adicione a ação **Outlook do Office 365 - Enviar um email** e, em seguida, configure-a para enviar um email com os resultados do pedido.
-   
+
+1. Adicione a ação **Outlook do Office 365 - Enviar um email** e, em seguida, configure-a para enviar um email com os resultados do pedido.
+
     Veja um exemplo da provável aparência do cartão **Enviar um email**.
-   
+
     ![enviar um email](media/all-assigned-must-approve/send-an-email-card.png)
 
 > [!NOTE]
 > Qualquer ação que segue a ação **Iniciar uma aprovação** é executada com base na seleção feita na lista **Tipo aprovação** no cartão **Iniciar uma aprovação**. A tabela a seguir lista o comportamento com base em sua seleção.
-> 
-> 
+>
+>
 
 | Tipo de aprovação | Comportamento |
 | --- | --- |
@@ -108,7 +118,7 @@ Parabéns, o fluxo está concluído! Se você tiver acompanhado o processo, seu 
 
 ![imagem do fluxo geral](media/all-assigned-must-approve/overall-flow.png)
 
-Agora, sempre que um item em sua lista do SharePoint mudar, seu fluxo será disparado e enviará pedidos de aprovação para todos os aprovadores listados na caixa **Atribuído a** do cartão **Iniciar uma aprovação**. Seu fluxo envia pedidos de aprovação por meio do aplicativo móvel do Microsoft Flow e por email. A pessoa que cria o item no SharePoint recebe um email que resume os resultados, indicando claramente se o pedido foi aprovado ou rejeitado.
+Agora, sempre que um item for adicionado à sua lista do SharePoint ou se um item for alterado, seu fluxo disparará e enviará solicitações de aprovação para todos os aprovadores listados na caixa **Atribuído a** do cartão **Iniciar uma aprovação**. Seu fluxo envia pedidos de aprovação por meio do aplicativo móvel do Microsoft Flow e por email. A pessoa que cria o item no SharePoint recebe um email que resume os resultados, indicando claramente se o pedido foi aprovado ou rejeitado.
 
 Veja um exemplo de pedido de aprovação enviado a cada aprovador.
 
@@ -119,7 +129,9 @@ Aqui está um exemplo de como uma resposta, e uma resposta resumida, após a exe
 ![tokens de resposta](media/all-assigned-must-approve/response-output.png)
 
 ## <a name="learn-more-about-approvals"></a>Saiba mais sobre as aprovações
+
 * [Aprovações modernas do aprovador único](modern-approvals.md)
 * [Aprovações modernas sequenciais](sequential-modern-approvals.md)
-* [Aprovações modernas paralelas](sequential-modern-approvals.md)
-
+* [Aprovações modernas paralelas](parallel-modern-approvals.md)
+* [Aprovações e o Microsoft Common Data Service](common-data-model-approve.md)
+* [Aprovar solicitações em qualquer lugar](mobile-approvals.md)

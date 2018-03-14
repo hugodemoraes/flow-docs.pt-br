@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
-ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
+ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
+ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -121,7 +121,7 @@ Agora o Painel de Lançamento do Microsoft Flow está disponível em todas as re
 
 ### <a name="release-2017-10-19"></a>Versão de 19-10-2017
 
-- **Aplicação aninhada em cada** – você pode adicionar aplicação a cada ação, filtrar e selecionar outras aplicações para cada contêiner.
+- **Aplicação aninhada em cada** – é possível adicionar aplicação a cada ação, filtrar e selecionar outras aplicações a cada ação de contêiner.
 - **Ações de data e hora** – novas ações para obtenção de horas locais, adição, subtração ou formatação de horas.
 - **Quatro novos conectores** – foram adicionados: Content Moderator, Docparser, Microsoft Kaizala e validação de dados do Pitney Bowes.
 - **Melhor experiência de conexão** – notificações no portal do Flow quando uma conexão é interrompida, além de detalhes mais avançados de conexão.
