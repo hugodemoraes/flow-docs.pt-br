@@ -1,13 +1,13 @@
 ---
 title: Perguntas frequentes | Microsoft Docs
-description: "Respostas a várias perguntas comuns sobre o Microsoft Flow"
-services: 
+description: Respostas a várias perguntas comuns sobre o Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 5b8deda5f22bcc1fa7cfa37a0d4244f26c2004a4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
+ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
 ## <a name="audience-and-strategy"></a>Público e estratégia
@@ -99,10 +99,21 @@ Comece com os seguintes recursos:
 * [Blog](https://flow.microsoft.com)
 * [Canal do YouTube](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
 * [Tópico](getting-started.md)
-* [Comunidade](http://powerusers.microsoft.com)
+* [Comunidade](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-microsoft-flow-support"></a>A quais sistemas operacionais o aplicativo móvel do Microsoft Flow oferece suporte?
 O aplicativo móvel Microsoft Flow está disponível para [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios), ou [Windows Phone](https://aka.ms/flowmobilewindows).
+
+### <a name="can-flows-be-turned-off-or-disabled"></a>Fluxos de podem ser desativados ou desabilitados?
+
+Sim, cada fluxo tem uma chave liga/desliga que permite que você interrompa o processamento de solicitações pelo fluxo.
+
+Consulte a tabela a seguir para entender como seu fluxo responde quando ele é ativado novamente.
+
+Tipo de gatilho|Descrição
+-------|--------
+Sondagem, tal como o gatilho **Recorrência**|Quando o fluxo é ativado novamente, todos os eventos não processados/pendentes são processados.
+Webhook|Quando o fluxo é ativado novamente, ele processa somente novos eventos que são gerados depois que o fluxo é ativado.
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Para quais regiões e idiomas o Microsoft Flow oferece suporte?
 O Microsoft Flow está disponível em 42 idiomas e [seis regiões](regions-overview.md).
