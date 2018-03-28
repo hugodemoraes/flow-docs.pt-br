@@ -1,13 +1,13 @@
 ---
-title: "Notas da versão | Microsoft Docs"
-description: "Problemas comuns e novidades das versões do Microsoft Flow"
-services: 
+title: Notas da versão | Microsoft Docs
+description: Problemas comuns e novidades das versões do Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
-ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
+ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
+ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -391,7 +391,7 @@ Agora, você pode aproveitar informações valiosas ao disparar um fluxo de bot�
 ### <a name="release-2016-11-23"></a>Versão 2016-11-23
 * **Suporte de alerta do Power BI no Flow** - torna informações em ação ao disparar fluxos a partir de alertas de dados do Power BI.
 * **Aprimoramentos dos aplicativos móveis** - foi adicionada a capacidade de criar fluxos a partir do zero, além da experiência já existente de criação a partir de modelos. Também melhoramos o desempenho da visualização das execuções do fluxo.
-* **Oito novos serviços** - agora, você pode conectar o Azure Resource Manager, Azure Queues, Chatter, Disqus, Azure DocumentDB, API de Detecção Facial dos Serviços Cognitivos, HipChat e Wordpress.
+* **Oito novos serviços** – Agora é possível se conectar ao Azure Resource Manager, ao Azure Queues, ao Chatter, ao Disqus, ao Azure Cosmos DB, à API de Detecção Facial dos Serviços Cognitivos, ao HipChat e ao Wordpress.
 
 [Leia mais e faça perguntas](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/) sobre esta versão.
 
