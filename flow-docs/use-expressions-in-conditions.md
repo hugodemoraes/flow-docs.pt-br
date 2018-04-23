@@ -1,23 +1,23 @@
 ---
-title: "Use expressões com condições. | Microsoft Docs"
-description: "Usar funções avançadas, como "
-"\"and\"\",": 
-"\"\"or\"\",": 
-"\"\"empty\"\",": 
-"\"\"less\"\"": 
-and: 
-"\"\"greater\"\"": 
-with: 
-microsoft: 
-flow: 
-conditions.": 
-services: 
+title: Use expressões com condições. | Microsoft Docs
+description: 'Usar funções avançadas, como '
+"\"and\"\",": ''
+"\"\"or\"\",": ''
+"\"\"empty\"\",": ''
+"\"\"less\"\"": ''
+and: ''
+"\"\"greater\"\"": ''
+with: ''
+microsoft: ''
+flow: ''
+conditions.": ''
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -25,11 +25,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>Usar funções nas condições para verificar diversos valores
 Neste passo a passo, você aprenderá a usar expressões e **Condições** para comparar diversos valores no **modo Avançado**.
@@ -74,71 +74,71 @@ Vamos criar o fluxo.
 
 ### <a name="start-with-a-blank-flow"></a>Iniciar com um fluxo em branco
 1. Entre no [Microsoft Flow](https://flow.microsoft.com).
-   
+
     ![entrar](includes/media/modern-approvals/sign-in.png)
 2. Selecione a guia **Meus fluxos**.
-   
+
     ![selecione meus fluxos](includes/media/modern-approvals/select-my-flows.png)
 3. Selecione **Criar do zero**.
-   
+
     ![criar do zero](includes/media/modern-approvals/blank-template.png)
 
 ### <a name="add-a-trigger-to-your-flow"></a>Adicionar um gatilho ao fluxo
 1. Procure **Agendamento** e, em seguida, escolha o gatilho **Agendamento - Recorrência**
-   
+
     ![agendar o gatilho](includes/media/schedule-trigger/schedule-trigger.png)
 2. Defina o agendamento para ser executado uma vez por dia.
-   
+
     ![definir o agendamento](includes/media/schedule-trigger/set-schedule.png)
 
 ### <a name="select-the-spreadsheet-and-get-all-rows"></a>Selecionar a planilha e obter todas as linhas
 1. Selecione **Nova etapa** > **Adicionar uma ação**.
-   
+
     ![nova etapa](includes/media/new-step/action.png)
 2. Procure as **linhas** e, em seguida, selecione **Excel - Obter linhas**.
-   
+
     Observação: selecione a ação "obter linhas" que corresponde à planilha que você está usando. Por exemplo, se você estiver usando as Planilhas do Google, selecione **Planilhas do Google - Obter linhas**.
-   
+
     ![obter Linhas](includes/media/new-step/get-excel-rows.png)
 3. Selecione o ícone de pasta na caixa **Nome do arquivo**, navegue e escolha a planilha que contém seus dados.
-   
+
     ![selecionar planilha](includes/media/new-step/select-spreadsheet.png)
 4. Escolha a tabela que contém seus dados na lista **Nome da tabela**.
-   
+
     ![selecionar tabela](includes/media/new-step/select-table.png)
 
 ### <a name="check-the-status-column-of-each-row"></a>Verificar a coluna de status de cada linha
 1. Selecione **Nova etapa** > **Mais** > **Adicionar um aplicar a cada**.
-   
+
     ![selecionar tabela](includes/media/new-step/apply-to-each.png)
 2. Adicione o token **Valor** à caixa **Selecionar uma saída nas etapas anteriores**.
-   
+
     ![selecionar tabela](includes/media/apply-to-each/add-value-token.png)
 3. Selecione **Adicionar uma condição** > **Editar no modo avançado**.
 4. Adicione a expressão **or** a seguir. A expressão **or** verifica o valor de cada linha na tabela (uma linha é conhecida como item quando acessada em uma expressão). Se o valor da coluna **status** for *concluído* **ou** *desnecessário*, a expressão **or** será avaliada como "true".
-   
+
     A expressão **or** aparece como mostrado aqui:
-   
+
     ````@or(equals(item()?['status'], 'unnecessary'), equals(item()?['status'], 'completed'))````
-   
+
     O cartão **Condição** é semelhante a esta imagem:
-   
+
     ![imagem da expressão or](./media/use-expressions-in-conditions/or-expression.png)
 
 ### <a name="delete-matching-rows-from-the-spreadsheet"></a>Excluir linhas correspondentes da planilha
 1. Selecione **Adicionar uma ação** na ramificação da condição **SE SIM, NÃO FAÇA NADA**.
 2. Pesquise **Excluir linha** e, em seguida, selecione **Excel - Excluir linha**.
-   
+
     ![excluir a imagem da linha](includes/media/new-step/select-delete-excel-row.png)
 3. Na caixa **Nome do arquivo**, pesquise e escolha o arquivo da planilha que contém os dados que você deseja excluir.
 4. Na lista **Nome da tabela**, selecione a tabela que contém seus dados.
 5. Coloque o token **Id da linha** na caixa **Id da linha**.
-   
+
     ![arquivo da planilha](includes/media/new-step/delete-excel-row.png)
 
 ### <a name="name-the-flow-and-save-it"></a>Nomear e salvar o fluxo
 1. Nomeie seu fluxo e selecione o botão **Criar fluxo**.
-   
+
     ![salvar seu fluxo](./media/use-expressions-in-conditions/name-and-save.png)
 
 ### <a name="run-the-flow-with-the-or-expression"></a>Executar o fluxo com a expressão or
@@ -201,10 +201,11 @@ Imagine que você tenha comprado ingressos para um jogo de baseball para seus co
 
 Use a expressão **and** junto com a expressão **less**, uma vez que há duas condições sendo validadas:
 
-| Condição a validar | expressão a usar | Exemplo |
-| --- | --- | --- |
-| O valor total devido foi pago? |greater |@greater(item()?['Due'], item()?['Paid']) |
-| A data devida é menor que um dia? |less |@less(item()?['DueDate'], addDays(utcNow(),1)) |
+
+|          Condição a validar          | expressão a usar |                    Exemplo                     |
+|-----------------------------------------|-------------------|------------------------------------------------|
+|   O valor total devido foi pago?    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
+| A data devida é menor que um dia? |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>Combinar as expressões greater e less em uma expressão and
 Use a expressão **greater** para identificar os funcionários que pagaram menos que o valor total devido e use a expressão **less** para determinar se a data de vencimento é menor que um dia antes da data atual. Então, você poderá usar a ação **Enviar um email** para enviar um email de lembrete amigável para aqueles que não pagaram tudo e cuja data de vencimento é menor que um dia.

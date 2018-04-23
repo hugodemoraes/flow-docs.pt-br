@@ -1,6 +1,7 @@
 Com uma crescente lista de [serviços](https://flow.microsoft.com/services) disponíveis para criar fluxos de trabalho com o [Microsoft Flow](https://flow.microsoft.com), torna-se necessário proteger dados de negócios confidenciais ou essenciais armazenados em serviços corporativos, como o SharePoint ou o Salesforce. É provável que você pense que sua organização precisa criar uma política para garantir que dados corporativos confidenciais não sejam publicados nos serviços de clientes, como o Twitter e o Facebook. Com o Microsoft Flow, você pode facilmente criar políticas de **prevenção contra perda de dados** (DLP) para controlar exatamente com quais serviços de clientes seus dados corporativos podem ser compartilhados quando os usuários criarem fluxos.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>Termos com os quais você deve se familiarizar
+
 | Termo | Descrição |
 | --- | --- |
 | **DLP** |É a abreviação de prevenção contra perda de dados. Você criará uma política de DLP para gerenciar o compartilhamento de dados entre **serviços**. |

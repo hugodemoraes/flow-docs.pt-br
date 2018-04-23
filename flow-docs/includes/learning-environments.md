@@ -2,6 +2,7 @@
 Um ambiente é um espaço virtual usado para armazenar, gerenciar e compartilhar aplicativos, fluxos e dados de negócios no Common Data Service. Os ambientes são geolocalizados para que todos os aplicativos e dados armazenados no banco de dados de um ambiente também sejam geolocalizados.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>Termos com os quais você deve se familiarizar
+
 | **Termo** | **Descrição** |
 | --- | --- |
 | **Centro de administração** |O centro de administração é um [portal da Web](https://admin.flow.microsoft.com) para gerenciar todos os ambientes e políticas de prevenção contra perda de dados. |

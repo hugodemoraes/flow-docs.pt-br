@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: sunayv
-ms.openlocfilehash: 631c53aaa19e137e1df82f8070192f6f4271339e
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: cf1a618b9e0ed76147eb4ede2aed42111c66b4a5
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-environments-within-microsoft-flow"></a>Uso de ambientes no Microsoft Flow
 
@@ -79,18 +79,20 @@ Vá até [admin.flow.microsoft.com](https://admin.flow.microsoft.com) e entre co
 ## <a name="create-an-environment"></a>Criar um ambiente
 
 1. No [Centro de administração do Microsoft Flow](https://admin.flow.microsoft.com), selecione **Ambientes**. Você verá todos os ambientes existentes: ![Ambientes](./media/environments-overview-admin/environments-list.png)
-1. Selecione **Novo ambiente** e forneça as informações necessárias:
+2. Selecione **Novo ambiente** e forneça as informações necessárias:
 
-   | Propriedade | Descrição |
-   | --- | --- |
-   | Nome do Ambiente |Insira o nome do seu ambiente, como `Human Resources`, ou `Europe flows`. |
-   | Região |Escolha o local para hospedar seu ambiente. Para obter o melhor desempenho, use uma região mais próxima de seus usuários.|
-   |Tipo de ambiente | Escolha um tipo de ambiente com base em sua licença: Produção ou Avaliação.| 
+
+   |     Propriedade     |                                                 Descrição                                                 |
+   |------------------|-------------------------------------------------------------------------------------------------------------|
+   | Nome do Ambiente |              Insira o nome do seu ambiente, como `Human Resources`, ou `Europe flows`.              |
+   |      Região      | Escolha o local para hospedar seu ambiente. Para obter o melhor desempenho, use uma região mais próxima de seus usuários. |
+   | Tipo de ambiente |                  Escolha um tipo de ambiente com base em sua licença: Produção ou Avaliação.                   |
+
      ![configurações do ambiente](./media/environments-overview-admin/new-environment-dialog.png)
-1. Clique em **Criar ambiente**.
-1. Agora você tem uma opção para **Criar banco de dados** ou **Ignorar**.
-1. Se você escolher **Criar banco de dados**, será necessário selecionar uma **Moeda** e **Idioma** para o banco de dados. Além disso, também é possível optar por ter aplicativos de amostra e dados implantados.
-   
+3. Clique em **Criar ambiente**.
+4. Agora você tem uma opção para **Criar banco de dados** ou **Ignorar**.
+5. Se você escolher **Criar banco de dados**, será necessário selecionar uma **Moeda** e **Idioma** para o banco de dados. Além disso, também é possível optar por ter aplicativos de amostra e dados implantados.
+
    ![definições de configuração do banco de dados](./media/environments-overview-admin/create-database-dialog2.png)
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Limites e configuração | Microsoft Docs"
-description: "Limites e configuração"
-services: 
+title: Limites e configuração | Microsoft Docs
+description: Limites e configuração
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: ee1ab187a4c5404ad0f0dd81d1894ddc8b1014b8
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limites e configuração no Microsoft Flow
 Este tópico contém informações sobre os limites atuais e detalhes da configuração para os fluxos.
@@ -28,17 +28,20 @@ Este tópico contém informações sobre os limites atuais e detalhes da configu
 Estes são os limites para uma única solicitação de saída.
 
 ### <a name="timeout"></a>Tempo limite
+
 | Nome | Limite |
 | --- | --- |
 | Tempo Limite de Solicitação |120 segundos |
 
 ### <a name="message-size"></a>Tamanho da mensagem
+
 | Nome | Limite | Anotações |
 | --- | --- | --- |
 | Tamanho da mensagem |100 MB |Nem todas as APIs suportam os 100 MB totais. |
 | Limite de avaliação de expressão |131.072 caracteres |`@concat()`, `@base64()`, `string` não podem exceder esse limite. |
 
 ### <a name="retry-policy"></a>Política de repetição
+
 | Nome | Limite |
 | --- | --- |
 | Tentativas de repetição |4 |

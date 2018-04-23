@@ -1,13 +1,13 @@
 ---
 title: Saiba mais sobre os ambientes do Microsoft Flow| Microsoft Docs
 description: Saiba como usar ambientes para isolar seus fluxos
-services: 
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: e6667c1c1999c36177d40d52fa657edadd063516
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choosing-an-environment"></a>Escolhendo um ambiente
 
@@ -73,7 +73,7 @@ Siga estas etapas para alternar os ambientes:
 Antes de criar um fluxo, selecione o ambiente no qual você adicionará o fluxo e seus recursos.
 
 > [!NOTE]
-Caso crie um fluxo no ambiente errado, será preciso excluí-lo e depois criá-lo no ambiente correto.
+> Caso crie um fluxo no ambiente errado, será preciso excluí-lo e depois criá-lo no ambiente correto.
 
 Considere os seguintes fatores ao escolher um ambiente no qual hospedar seus fluxos:
 
@@ -82,7 +82,7 @@ Considere os seguintes fatores ao escolher um ambiente no qual hospedar seus flu
 * Você verá todos os ambientes nos quais é possível editar recursos. No entanto, será preciso solicitar que um administrador adicione você como um criador em todos os ambientes nos quais você deseja criar fluxos.
 
 > [!NOTE]
-Você sempre poderá criar fluxos no ambiente padrão.
+> Você sempre poderá criar fluxos no ambiente padrão.
 
 ## <a name="next-steps"></a>Próximas etapas
 
