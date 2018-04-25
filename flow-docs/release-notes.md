@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/12/2018
+ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
-ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -44,6 +44,39 @@ ms.lasthandoff: 03/23/2018
 3. Os gatilhos do arquivo não serão acionados para os arquivos sendo adicionados dentro das pastas aninhadas dentro da pasta selecionada.
 
 ## <a name="whats-new"></a>Novidades
+
+### <a name="release-2018-04-12"></a>Versão 2018-04-12
+
+- **Retornar dados para o PowerApps de um fluxo** – Criar fluxos que podem ser chamados de um aplicativo criado com o PowerApps e retornar dados de volta para o aplicativo. Use o designer de fluxo visual do tipo “arrastar e soltar” para criar a lógica necessária para seus aplicativos. 
+- **Adicionar vários registros a entradas de matriz** – Foi adicionado um construtor de lista no Microsoft Flow que pode ser usado para adicionar vários anexos a um email, por exemplo.
+- **Testar os fluxos com os dados de execução anterior** – Foi adicionado um novo botão de fluxo de teste ao designer que permite que você teste seu fluxo com os dados de gatilho da execução de fluxo anterior.
+- **Novos campos workflow()** – Agora você pode acessar o nome de ambiente e o nome de exibição do fluxo com a expressão workflow().
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/return-data-to-powerapps/) sobre esta versão.
+
+### <a name="release-2018-04-04"></a>Versão 2018-04-04
+
+- **Aprovações no Common Data Service** – Aprovações modernas são criadas na versão mais recente do Common Data Service for Apps. Isso significa que você pode criar fluxos que leem o status das aprovações enviadas ou recebidas com o conector CDS.
+- **Localizar erros em aplicar a cada** – Saltar diretamente para erros em loops na exibição de execução de fluxo, mesmo quando houver centenas de itens no loop.
+- **Reatribuir aprovações** – Você pode atribuir qualquer aprovação recebida a outra pessoa em sua organização para delegar a aprovação para essa pessoa. 
+- **Listas de salas** – O conector do Outlook do Office 365 adicionou ações para obter dados de sala em sua organização.
+- **Ver detalhes dos botões de fluxo** – Ao executar um fluxo que foi compartilhado com você, agora você pode ver todas as ações que o fluxo usa.
+- **Região do Reino Unido** – Agora os ambientes podem ser criados para armazenar seus dados no Reino Unido.
+- **Dois novos conectores** – Foi adicionado suporte para o AtBot Admin e o Marketing Content Hub.
+- **Nova página de aterrissagem da documentação** – Foi atualizada a página de aterrissagem da documentação para ter conteúdo agrupado por você: usuário iniciante, intermediário ou especialista. 
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/approvals-in-cds-and-seven-updates/) sobre esta versão.
+
+### <a name="release-2018-03-13"></a>Versão 2018-03-13
+
+- **Histórico de aprovação** – Veja todas as solicitações de aprovação que você enviou, incluindo as respostas, os comentários enviados e a hora exata em que aconteceram.
+- **Quatro novos conectores** – Foram adicionados o Excel Online (comercial), o Excel Online (OneDrive), o SQL Data Warehouse do Azure e a Calculadora de tributos Pitney Bowes.
+- **Dicas de ferramenta de conteúdo dinâmico** – Focalize conteúdo dinâmico para ver de onde ele veio dentro de ações e visualize expressões sem abrir o editor de expressão completa.
+- **Controle de simultaneidade** – Habilite o controle de simultaneidade para que determinado fluxo tenha apenas uma execução por vez.
+- **Repetição exponencial** – Um novo tipo de política de repetição que aumenta os intervalos das repetições exponencialmente ao longo do tempo.
+- **Conformidade de acessibilidade** – Foram liberados novos documentos de conformidade que descrevem como o Microsoft Flow atende aos padrões de acessibilidade.
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/approval-history-accessibility/) sobre esta versão.
 
 ### <a name="release-2018-02-09"></a>Versão 2018-02-09
 

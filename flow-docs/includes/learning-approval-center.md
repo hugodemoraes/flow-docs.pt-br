@@ -54,7 +54,7 @@ Por padrão, esse modelo começa um processo de aprovação sempre que um novo i
 12. Selecione **ApprovalStatus** e defina o valor como **Sim**, depois, selecione **ApproverComments** e defina o valor como **Comentários** na lista de conteúdo dinâmico. 
     
      ![Status e comentários](./media/learning-approval-center/approver-status.png)
-13. Perto da parte inferior da caixa **SE NÃO,  *NÃO FAÇA NADA***, selecione **Adicionar uma ação**.
+13. Perto da parte inferior da caixa **SE NÃO, NÃO FAÇA NADA**, selecione **Adicionar uma ação**.
     
      ![Adicionar uma ação](./media/learning-approval-center/add-a-no-action.png)
 14. Usando as mesmas etapas da configuração **SE SIM**, crie uma ação **SharePoint – Atualizar o item** e configure os campos com os mesmos valores, com exceção da configuração  **ApprovalStatus** como **Não**. 

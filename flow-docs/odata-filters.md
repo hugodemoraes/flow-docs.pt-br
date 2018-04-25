@@ -1,13 +1,13 @@
 ---
 title: Filtrar e copiar dados | Microsoft Docs
 description: Aprenda a filtrar e copiar dados de uma fonte para um destino com o Microsoft Flow
-services: 
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Filtrar e copiar dados com o Microsoft Flow
 Este passo a passo mostra como criar um fluxo que monitora uma origem para itens novos ou alterados e, em seguida, copia as alterações para um destino. Você pode criar um fluxo como este se seus usuários inserem dados em um local, mas sua equipe precisa deles em um local ou formato diferente.
@@ -106,7 +106,7 @@ No cartão de condição:
     ![configurar uma condição](media/odata-filters/configure-condition.png)
 5. Selecione **Editar no modo avançado**.
    
-    Quando o modo avançado é aberto, você vê a expressão **@equals(body('Get_rows')?['value'], 0)** na caixa. Edite esta expressão adicionando **length()** na função **body('Get_items')?['valor']**. A expressão inteira agora é exibida da seguinte maneira: **@equals(length(body('Get_rows')?['value']), 0)**
+    Quando o modo avançado é aberto, você vê a expressão **\@equals(body('Get_rows')?['value'], 0)** na caixa. Edite esta expressão adicionando **length()** na função **body('Get_items')?['valor']**. A expressão inteira agora é exibida da seguinte maneira: **@equals(length(body('Get_rows')?['value']), 0)**
    
     O cartão **Condição** agora é semelhante a esta imagem:
    

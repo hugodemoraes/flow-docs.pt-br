@@ -1,57 +1,65 @@
 ---
-title: "Começar a criar | Microsoft Docs"
-description: "Crie um conector personalizado, compartilhe-o, insira um fluxo e faça muito mais."
-services: 
+title: Criar conectores personalizados e inserir fluxos|Microsoft Docs
+description: Crie um conector personalizado, compartilhe-o, insira um fluxo e faça muito mais.
+services: ''
 suite: flow
 documentationcenter: na
 author: bbarath
-manager: erikre
-editor: 
-tags: 
+manager: anneta
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/22/2016
+ms.date: 11/22/2017
 ms.author: barathb
-ms.openlocfilehash: d22193ac40b6eb8f90abf2ae5ced91b39c2faad9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: a3f1e21cfbf00749a0ef09c0363da162f0419f42
+ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="start-to-build-with-microsoft-flow"></a>Começar a criar com o Microsoft Flow
-Estenda seu aplicativo com o Microsoft Flow das seguintes maneiras, entre outras:
 
-* criar e conectar a um conector personalizado
-* compartilhar essa API com todos os usuários do Microsoft Flow
-* inserir a experiência de fluxo de dentro de um aplicativo
-* aproveitar todas os APIs do desenvolvedor para que os usuários podem interagir com o Microsoft Flow da melhor maneira para eles
+Aqui estão algumas das maneiras de estender o aplicativo com o Microsoft Flow:
+
+* Crie e conecte-se com um conector personalizado.
+* Compartilhe seu conector personalizado com todos os usuários do Microsoft Flow.
+* Insira a experiência de fluxo dentro de um aplicativo.
+* Destaque todos os conectores personalizados para que os usuários possam interagir com o Microsoft Flow da melhor maneira para eles.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-* Uma conta em [flow.microsoft.com](https://flow.microsoft.com)
+
+* Uma conta do [Microsoft Flow](https://flow.microsoft.com).
 
 ## <a name="create-a-custom-connector"></a>Criar um conector personalizado
-Quando você tem um serviço Web que quer que seja capaz de automatizar com o Microsoft Flow, terá de criar primeiro um conector personalizado. Ao registrar um conector personalizado, você informa ao Microsoft Flow sobre as características de sua API Web, incluindo a autenticação necessária, os gatilhos e as ações que ela dá suporte e os parâmetros e as saídas para cada uma dessas ações.
 
-Siga [este tutorial](https://powerapps.microsoft.com/tutorials/register-custom-api/) para registrar um conector personalizado. Depois de registrá-la, você pode compartilhar a API dentro de sua organização para que outras pessoas possam ajudá-lo a testá-la.
+Se você tiver um serviço Web com o qual deseja se conectar do Microsoft Flow, terá de criar primeiro um conector personalizado. Ao registrar um conector personalizado, você informa ao Microsoft Flow sobre as características do seu serviço Web, incluindo a autenticação necessária, os gatilhos e as ações a que ele dá suporte e os parâmetros e as saídas para cada uma dessas ações.
+
+Siga este tutorial para saber como [Registrar e usar conectores personalizados](https://powerapps.microsoft.com/tutorials/register-custom-api/). Depois de registrar seu conector personalizado, você pode compartilhá-lo dentro de sua organização para teste.
 
 ## <a name="share-a-custom-connector-with-all-microsoft-flow-users"></a>Compartilhar um conector personalizado com todos os usuários do Microsoft Flow
-Depois de testar completamente seu conector personalizado, inicie o processo de análise conforme estabelecido na [postagem deste blog](https://flow.microsoft.com/blog/calling-all-saas-apps-now-you-can-build-your-own-connector-for-flow-and-logic-apps/):
 
-* Um arquivo OpenAPI que representa sua API e informações de autenticação
-* Um ícone para o conector
-* Uma descrição de sua API
-* Cerca de 10 ideias de como a API pode beneficiar outros usuários por meio de modelos
+Depois de testar completamente seu conector personalizado, inicie o [processo de revisão](https://flow.microsoft.com/blog/calling-all-saas-apps-now-you-can-build-your-own-connector-for-flow-and-logic-apps/) para que ele seja aprovado pela Microsoft, para compartilhar com todos os outros usuários do Microsoft Flow.
 
-Depois de enviar essas informações, a Microsoft começará avaliar a função da API no Microsoft Flow e Microsoft PowerApps.
+Veja o que será necessário para o processo de revisão:
 
-## <a name="embed-the-flow-experience-in-your-website-or-app"></a>Inserir a experiência de fluxo no site ou aplicativo
-Por fim, você pode inserir o Microsoft Flow de dentro do aplicativo para habilitar integração profunda, em contexto, entre o aplicativo e todos os outros serviços aos quais o Microsoft Flow dá suporte. Por exemplo, você pode:
+* Um arquivo OpenAPI que representa sua API e informações de autenticação.
+* Um ícone para o conector.
+* Uma descrição do seu conector.
+* Cerca de 10 ideias de como o seu conector pode beneficiar outros usuários por meio de modelos.
 
-* Procurar todos os modelos relacionados ao serviço e permitir que usuários selecionem um modelo
-* Gerenciar os fluxos que os usuários relacionaram ao aplicativo
+Depois de enviar essas informações, a Microsoft começa a avaliar a funcionalidade da API no Microsoft Flow e no Microsoft PowerApps.
 
-Execute [Este tutorial](embed-flow-dev.md) para obter mais informações sobre como inserir o Microsoft Flow dentro de um aplicativo.
+## <a name="embed-the-flow-experience-into-your-website-or-app"></a>Inserir a experiência de fluxo no site ou aplicativo
 
+Você pode [inserir](embed-flow-dev.md) o Microsoft Flow no seu aplicativo para habilitar a integração profunda, em contexto, entre o aplicativo e todos os outros serviços aos quais o Microsoft Flow dá suporte. Por exemplo, você pode:
+
+* Procurar todos os modelos relacionados ao serviço e permitir que usuários selecionem um modelo.
+* Gerenciar os fluxos que os usuários relacionaram ao aplicativo.
+
+## <a name="next-steps"></a>Próximas etapas
+
+Saiba como [inserir](embed-flow-dev.md) o Microsoft Flow em seu aplicativo.

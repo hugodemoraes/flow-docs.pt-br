@@ -1,13 +1,13 @@
 ---
 title: Criar um fluxo de um modelo | Microsoft Docs
-description: "Crie um fluxo de qualquer um dos vários modelos internos."
-services: 
+description: Crie um fluxo de qualquer um dos vários modelos internos.
+services: ''
 suite: flow
 documentationcenter: na
 author: aftowen
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: 876723b62274f3a306c0a8472095b131e223408b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Criar um fluxo de um modelo no Microsoft Flow
 Crie um fluxo de um dos muitos modelos internos que podem, por exemplo, enviar uma mensagem de Slack quando seu gerente lhe envia um email no Office 365.
@@ -54,7 +54,7 @@ Crie um fluxo de um dos muitos modelos internos que podem, por exemplo, enviar u
 1. Selecione a barra de título de um evento para expandi-lo e personalize-o (por exemplo, especificando um filtro no email que lhe interessa).
 2. Ações que exigem entradas de você serão automaticamente expandidas.
    
-    Por exemplo, a ação **Postar mensagem** é expandida porque você precisa inserir um canal, como seu *@username*. Você também pode personalizar o conteúdo da mensagem. Por padrão, a mensagem conterá apenas o assunto, mas você pode incluir outras informações.
+    Por exemplo, a ação **Publicar mensagem** é expandida porque você precisa inserir um canal, como o *\@username*. Você também pode personalizar o conteúdo da mensagem. Por padrão, a mensagem conterá apenas o assunto, mas você pode incluir outras informações.
    
     ![Especificar canal para Slack](./media/get-started-logic-template/specify-keyword.png)
 3. Na parte inferior da tela, especifique um nome para o fluxo e, em seguida, selecione **Criar Fluxo**.
