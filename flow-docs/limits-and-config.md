@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: ee1ab187a4c5404ad0f0dd81d1894ddc8b1014b8
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limites e configuração no Microsoft Flow
 Este tópico contém informações sobre os limites atuais e detalhes da configuração para os fluxos.
@@ -123,4 +123,5 @@ graph.microsoft.com </br>graph.windows.net</br>|https|Acesso à API do Azure AD 
 *.flow.microsoft.com|https|Acesso ao site do Microsoft Flow.
 *.powerapps.com|https|Acesso ao site do PowerApps.
 psux.azureedge.net|https|Acesso à CDN do Microsoft Flow.
+nps.onyx.azure.net|https|Acesso ao NPS (Net Promoter Score).
 

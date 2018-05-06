@@ -14,15 +14,13 @@ ms.author: deonhe
 manager: kfile
 ms.date: 03/28/2018
 ms.topic: hub-page
-ms.prod: flow
-ms.technology: ''
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 0fb3e966593c85d2a437614f9c34087fca3a06ab
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: 7a030259095667ed64c796c8c8ab68495d3d61dc
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 <div id="main" class="v2">
 <div class="container">
@@ -370,6 +368,92 @@ ms.lasthandoff: 04/16/2018
                                         <div class="cardText">
                                             <h3>Expandir seus fluxos com Aplicativos Lógicos</h3>
                                             <p>Os Aplicativos Lógicos do Azure fornecem um conjunto de recursos mais rico do que o incluído no Microsoft Flow. Basta salvar qualquer fluxo como um modelo de Aplicativos Lógicos e gerenciá-lo como qualquer outro recurso de Aplicativos Lógicos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#admin">Sou administrador</a>
+            <ul id="admin">
+                <li>
+                    <a href="#admin-all"></a>
+                    <ul id="admin-all" class="cardsC">
+                        <li>
+                            <a href="environments-overview-admin.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Manage environments." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Gerenciar ambientes</h3>
+                                            <p>Gerencie os ambientes da sua organização.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="prevent-data-loss.md">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/environments_dlp.svg" alt="Define data policies." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Evitar perda de dados</h3>
+                                            <p>Defina políticas para proteger os dados da sua organização.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/accessing-office-365-security-compliance-center-logs-from-microsoft-flow/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/manage_runs.svg" alt="Manage flow runs." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Gerenciar execuções de fluxo</h3>
+                                            <p>Investigar e gerenciar cada execução de seus fluxos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Gain insights into your flows" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Obter informações sobre seus fluxos</h3>
+                                            <p>Obtenha informações sobre a integridade de seus fluxos no painel de análise.</p>
                                         </div>
                                     </div>
                                 </div>
