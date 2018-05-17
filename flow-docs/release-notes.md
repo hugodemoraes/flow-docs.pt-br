@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
+ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -44,6 +44,14 @@ ms.lasthandoff: 04/16/2018
 3. Os gatilhos do arquivo não serão acionados para os arquivos sendo adicionados dentro das pastas aninhadas dentro da pasta selecionada.
 
 ## <a name="whats-new"></a>Novidades
+
+### <a name="release-2014-05-01"></a>Versão de 1º de maio de 2014
+
+- **Rich text em mensagens de aprovação** – use Markdown para formatar os detalhes da aprovação que você envia.
+- **Botões com várias entradas de seleção** – crie botões de fluxo que usam uma lista de seleção múltipla para coletar mais de um valor por vez.
+- **Trabalhar com fluxos maiores** – o aplicativo móvel Microsoft Flow agora dá suporte ao modo de exibição de paisagem e o designer da Web apresenta uma barra de rolagem horizontal.
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/) sobre esta versão.
 
 ### <a name="release-2018-04-12"></a>Versão 2018-04-12
 
