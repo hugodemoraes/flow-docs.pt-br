@@ -3,39 +3,44 @@ documentType: LandingData
 title: Aprendizagem Guiada do Microsoft Flow
 metadata:
   title: Aprendizagem Guiada do Microsoft Flow
-  meta.description: 'Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.'
+  meta.description: Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.
   author: MSFTMan
   manager: anneta
   layout: LandingPage
-  ms.assetid: null
+  ms.assetid: 
   ms.service: flow
   ms.tgt_pltfrm: na
   ms.devlang: na
   ms.topic: landing-page
   ms.date: 10/13/2017
   ms.author: deonhe
+  ms.openlocfilehash: 2f518f511bf7180cd056dc03b3dfdb1a1534b336
+  ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 05/19/2018
 abstract:
   description: Comece sua jornada de aprendizagem com essa coleção sequenciada de cursos e compreenda as capacidades abrangentes e poderosas do Microsoft Flow.
 sections:
-  - items:
-      - type: list
-        style: cards
-        className: cardsF
-        columns: 2
-        items:
-          - html: '<p><a href="get-started#step-1">Entender os conceitos básicos do Microsoft Flow</a> - 14 min</p><p><a href="get-started#step-2">Criar um fluxo a partir de um modelo</a> - 9 min</p><p><a href="get-started#step-3">Usar o aplicativo móvel do Microsoft Flow</a> - 8 min</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-            title: Introdução
-          - html: '<p><a href="build-flows#step-1">Criar um fluxo de botão</a> - 11 min</p><p><a href="build-flows#step-2">Obter notificações</a> - 6 min</p><p><a href="build-flows#step-3">Copiar arquivos</a> - 4 min</p><p><a href="build-flows#step-4">Coletar dados</a> - 5 min</p><p><a href="build-flows#step-5">Postar tweets de um fluxo</a> - 15 min</p><p><a href="build-flows#step-6">Criar fluxos agendados</a> - 9 min</p><p><a href="build-flows#step-7">Converter e armazenar documentos</a> - 14 min</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_build.svg'
-            title: Criar Fluxos
-          - html: '<p><a href="work-with-approvals#step-1">Criar uma solicitação de aprovação</a> - 4 min</p><p><a href="work-with-approvals#step-2">Processar uma solicitação de aprovação</a> - 7 min</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
-            title: Trabalhar com aprovações
-          - html: '<p><a href="administer-flows#step-1">Use ambientes para gerenciar fluxos</a> - 8 min</p><p><a href="administer-flows#step-2">Usar políticas de prevenção de perda de dados</a> - 6 min</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_management.svg'
-            title: Administrar fluxos
+- items:
+  - type: list
+    style: cards
+    className: cardsF
+    columns: 2
+    items:
+    - html: <p><a href="get-started?tutorial-step=1">Entender os conceitos básicos do Microsoft Flow</a> - 14 min</p><p><a href="get-started?tutorial-step=2">Criar um fluxo a partir de um modelo</a> - 9 min</p><p><a href="get-started?tutorial-step=3">Usar o aplicativo móvel do Microsoft Flow</a> - 8 min</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_get-started.svg
+      title: Introdução
+    - html: <p><a href="build-flows?tutorial-step=1">Criar um fluxo de botão</a> - 11 min</p><p><a href="build-flows?tutorial-step=2">Obter notificações</a> - 6 min</p><p><a href="build-flows?tutorial-step=3">Copiar arquivos</a> - 4 min</p><p><a href="build-flows?tutorial-step=4">Coletar dados</a> - 5 min</p><p><a href="build-flows?tutorial-step=5">Postar tweets de um fluxo</a> - 15 min</p><p><a href="build-flows?tutorial-step=6">Criar fluxos agendados</a> - 9 min</p><p><a href="build-flows?tutorial-step=7">Converter e armazenar documentos</a> - 14 min</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_build.svg
+      title: Criar Fluxos
+    - html: <p><a href="work-with-approvals?tutorial-step=1">Criar uma solicitação de aprovação</a> - 4 min</p><p><a href="work-with-approvals?tutorial-step=2">Processar uma solicitação de aprovação</a> - 7 min</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_tasks.svg
+      title: Trabalhar com aprovações
+    - html: <p><a href="administer-flows?tutorial-step=1">Use ambientes para gerenciar fluxos</a> - 8 min</p><p><a href="administer-flows?tutorial-step=2">Usar políticas de prevenção de perda de dados</a> - 6 min</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_management.svg
+      title: Administrar fluxos
