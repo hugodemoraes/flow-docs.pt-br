@@ -1,4 +1,4 @@
-1. Selecione **Adicionar uma ação** na ramificação da condição **SE SIM, NÃO FAÇA NADA**.
+1. Selecione **Adicionar uma ação**, no branch da condição **SE SIM**.
    
     ![adicionar nova etapa](media/modern-approvals/add-action-after-condition.png)
 2. Insira **enviar email** na caixa de pesquisa no cartão **Escolher uma ação**.
@@ -9,7 +9,10 @@
     ![selecione “enviar uma ação de email”](media/modern-approvals/select-send-email-yes.png)
 4. Configure o cartão de email para atender às suas necessidades.
    
-     Observação: **Para**, **Assunto**, e **Corpo** são necessários.
+     >[!NOTE]
+     > **Para**, **Assunto** e **Corpo** são necessários.
+     >
+     >
    
      Este cartão é um modelo para o email que é enviado quando o status das solicitações de férias for alterado.
    

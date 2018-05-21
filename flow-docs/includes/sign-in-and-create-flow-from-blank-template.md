@@ -8,3 +8,5 @@
    
     ![criar do zero](media/modern-approvals/blank-template.png)
 
+4. Selecione o botão **Criar de um modelo em branco**.
+
