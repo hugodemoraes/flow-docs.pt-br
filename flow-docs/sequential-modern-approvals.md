@@ -1,13 +1,13 @@
 ---
-title: "Criar um fluxo de trabalho de aprovação moderno com vários aprovadores | Microsoft Docs"
-description: "Criar um fluxo de trabalho de aprovação moderno com vários aprovadores "
-services: 
+title: Criar um fluxo de trabalho de aprovação moderno com vários aprovadores | Microsoft Docs
+description: 'Criar um fluxo de trabalho de aprovação moderno com vários aprovadores '
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Gerenciar aprovações sequenciais com o Microsoft Flow
 Alguns fluxos de trabalho exigem aprovação prévia antes do aprovador final ser solicitado a desconectar. Por exemplo, uma empresa pode ter uma política de aprovação sequencial que requer aprovação prévia para faturas acima de $1000.00 antes de serem aprovadas pelo departamento de Finanças.

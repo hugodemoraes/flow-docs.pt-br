@@ -1,13 +1,13 @@
 ---
-title: "Compartilhe seus botões com outras pessoas. | Microsoft Docs"
-description: "Compartilhe seus botões com outras pessoas para que possam usar os botões e economizar tempo."
-services: 
+title: Compartilhe seus botões com outras pessoas. | Microsoft Docs
+description: Compartilhe seus botões com outras pessoas para que possam usar os botões e economizar tempo.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Compartilhar fluxos de botão no Microsoft Flow
 No aplicativo móvel do Microsoft Flow, você pode compartilhar [fluxos de botão](introduction-to-button-flows.md) (botões) com outros usuários ou grupos em sua organização. Quando você compartilha um botão, a pessoa ou grupo com quem você compartilha pode executar seu botão, da mesma maneira que executam seus próprios botões. Você também pode [compartilhar um link](share-buttons.md#re-share-a-button) para botões que outra pessoa compartilhou com você. Você pode [parar de compartilhar](share-buttons.md#stop-sharing-a-button) seus botões a qualquer momento.

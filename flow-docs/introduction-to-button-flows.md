@@ -1,13 +1,13 @@
 ---
-title: "Saiba como automatizar e executar as tarefas repetitivas com os fluxos de botão | Microsoft Docs"
-description: "Introdução aos fluxos de botão."
-services: 
+title: Saiba como automatizar e executar as tarefas repetitivas com os fluxos de botão | Microsoft Docs
+description: Introdução aos fluxos de botão.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/30/2017
 ms.author: deonhe
 ms.openlocfilehash: 558570733819e1fde6c1845ed5ca9debe9232c88
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="introducing-button-flows"></a>Introdução a fluxos de botão
 ## <a name="what-are-button-flows"></a>O que são fluxos de botão?

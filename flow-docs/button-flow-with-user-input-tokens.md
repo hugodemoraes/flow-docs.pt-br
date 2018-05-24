@@ -1,13 +1,13 @@
 ---
-title: "Saiba como automatizar as tarefas repetitivas com os fluxos de botão que aceitam a entrada do usuário | Microsoft Docs"
-description: "O Microsoft Flow facilita a automatização de tarefas repetitivas. Seus fluxos ainda podem levar à entrada do usuário ao executar uma tarefa repetitiva."
-services: 
+title: Saiba como automatizar as tarefas repetitivas com os fluxos de botão que aceitam a entrada do usuário | Microsoft Docs
+description: O Microsoft Flow facilita a automatização de tarefas repetitivas. Seus fluxos ainda podem levar à entrada do usuário ao executar uma tarefa repetitiva.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73feb90b3907ee8a7a192f16bc29c5893d0be4bb
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Introdução aos fluxos de botão com a entrada do usuário
 Crie um fluxo de botão para executar tarefas de rotina com um simples toque em um botão. Personalize seu fluxo permitindo que o usuário forneça detalhes específicos que serão usados quando o fluxo for executado. Este tópico ajuda você a criar um fluxo de botão que recebe entrada do usuário e a executar o fluxo de botão, destacando como fornecer a entrada do usuário.
@@ -52,7 +52,7 @@ Crie um fluxo de botão no site do Microsoft Flow ou no aplicativo móvel do Mic
 1. No cartão do gatilho, selecione **Editar**:
    
     ![](./media/button-flow-with-user-input-tokens/6.png)  
-2. Selecione o ícone  **+**  para expandir a página de modo que você possa adicionar campos de entrada personalizados:
+2. Selecione o ícone **+** para expandir a página de modo que você possa adicionar campos de entrada personalizados:
    
     ![](./media/button-flow-with-user-input-tokens/7.png)
 3. Insira o **Título da entrada** e a **Descrição da entrada** de cada campo personalizado que você deseja disponibilizar quando alguém executar seu fluxo.  
@@ -116,7 +116,7 @@ Neste passo a passo, você usará o aplicativo móvel para Microsoft Flow para e
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Compartilhar fluxos de botão](share-buttons.md)
-* [Saiba mais sobre fluxos](guided-learning/learning-introducing-flow.md)  
+* [Saiba mais sobre fluxos](guided-learning/get-started.yml?tutorial-step=1)  
 * [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)  
 * [Saiba mais sobre fluxos de botão com tokens de gatilho](introduction-to-button-trigger-tokens.md)  
 

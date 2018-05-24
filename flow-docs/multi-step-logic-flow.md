@@ -1,13 +1,13 @@
 ---
-title: "Adicionar uma opção avançada e várias ações | Microsoft Docs"
-description: "Expanda um fluxo para incluir uma opção avançada, como a configuração de um email como alta prioridade e adicionar outra ação para o mesmo evento."
-services: 
+title: Adicionar uma opção avançada e várias ações | Microsoft Docs
+description: Expanda um fluxo para incluir uma opção avançada, como a configuração de um email como alta prioridade e adicionar outra ação para o mesmo evento.
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
 ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>Adicione várias ações e opções avançadas a um fluxo
 Personalize um fluxo, adicionando um ou mais opções avançadas e várias ações com o mesmo gatilho. Por exemplo, adicione uma opção avançada que envia uma mensagem de email como prioridade alta. Quando um item é adicionado a uma lista do SharePoint, além de enviar um email, crie um arquivo no Dropbox que contém as mesmas informações.

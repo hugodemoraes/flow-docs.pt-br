@@ -1,13 +1,13 @@
 ---
 title: Monitorar a atividade usando seu telefone | Microsoft Docs
-description: "Veja quantas vezes cada fluxo foi bem-sucedido ou falhou, quando ocorreu cada execução e quanto tempo demorou"
-services: 
+description: Veja quantas vezes cada fluxo foi bem-sucedido ou falhou, quando ocorreu cada execução e quanto tempo demorou
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>Monitore a atividade do Microsoft Flow usando seu telefone
 Exiba um resumo de quantas vezes cada fluxo foi bem-sucedido ou falhou hoje, ontem e em dias anteriores. Explore os detalhes sobre cada execução, tais como quando foi executado, quanto tempo cada etapa levou e, se falhou, o motivo.

@@ -1,13 +1,13 @@
 ---
 title: Criar um fluxo com o Dynamics 365 (online) | Microsoft Docs
-description: "Crie fluxos de trabalho úteis usando uma conexão do Dynamics 365 e o Microsoft Flow"
-services: 
+description: Crie fluxos de trabalho úteis usando uma conexão do Dynamics 365 e o Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 5ef3de417b1557644ce9bfcd935353e017ceb676
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo usando o Dynamics 365 (online)
 Com um conector do Dynamics 365, crie fluxos iniciados quando ocorre um evento no Dynamics 365, ou em algum outro serviço, que, em seguida, executa uma ação no Dynamics 365, ou em algum outro serviço. 
@@ -73,7 +73,7 @@ Se não houver um modelo disponível para sua necessidade, crie um fluxo do zero
 12. Clique ou toque em **Criar fluxo**.
 
 ## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>Criar uma tarefa de Wunderlist a partir de uma tarefa de Dynamics 365
-Este passo a passo mostra como criar uma tarefa no [Wunderlist](http://www.wunderlist.com) sempre que uma tarefa for criada no Dynamics 365. Wunderlist é um serviço baseado na Internet que pode ser usado para criar listas de tarefas, adicionar lembretes ou controlar incumbências.
+Este passo a passo mostra como criar uma tarefa no [Wunderlist](https://www.wunderlist.com) sempre que uma tarefa for criada no Dynamics 365. Wunderlist é um serviço baseado na Internet que pode ser usado para criar listas de tarefas, adicionar lembretes ou controlar incumbências.
 
 1. Entre no [site do Microsoft Flow](https://flow.microsoft.com/).
 2. Clique ou toque em **Meus fluxos**e depois clique ou toque em **Criar de um modelo em branco**.
@@ -129,7 +129,7 @@ Esse exemplo também atribui a tarefa a um usuário específico com base na ID d
 
   ![ID de registro e tipo de usuário do fluxo](./media/connection-dynamics365/flow-recordid-user.png)
 
-Para localizar a ID de um registro, consulte [Encontrar a ID do registro](#find-the-record-id) mais adiante neste tópico.
+Para localizar a ID de um registro, consulte [Encontrar a ID do registro](#find-the-records-id) mais adiante neste tópico.
 
 > **Importante:** os campos não devem conter um valor se tiverem uma descrição "Somente para uso interno". Esses campos incluem **Caminho percorrido**, **Parâmetros Adicionais** e **Número de versão da regra de fuso horário.**
 > 
