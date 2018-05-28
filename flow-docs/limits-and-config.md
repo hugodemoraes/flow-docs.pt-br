@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 9b2447ce0a7c9bc353e47ee1edb4bea55f2c49f4
+ms.sourcegitcommit: f9be24c533003146d75e5a7fa6e40356d4ce47d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limites e configuração no Microsoft Flow
 Este tópico contém informações sobre os limites atuais e detalhes da configuração para os fluxos.
@@ -31,7 +31,8 @@ Estes são os limites para uma única solicitação de saída.
 
 | Nome | Limite |
 | --- | --- |
-| Tempo Limite de Solicitação |120 segundos |
+| Tempo limite da solicitação para chamadas síncronas |120 segundos |
+| Tempo limite da solicitação para chamadas assíncronas|Configurável. O máximo é 30 dias. |
 
 ### <a name="message-size"></a>Tamanho da mensagem
 
@@ -55,6 +56,7 @@ Estes são os limites para executar um único fluxo.
 | Retenção de armazenamento |30 dias |Isso é a partir do início da execução. |
 | Intervalo de recorrência mín. |1 minuto | |
 | Intervalo de recorrência máx. |500 dias | |
+| Retenção máxima de histórico de execução |28 dias, de acordo com as regras do RGPD. | |
 
 ## <a name="looping-and-debatching-limits"></a>Limites de loop e debatching
 Estes são os limites para executar um único fluxo.

@@ -1,13 +1,13 @@
 ---
-title: "Aprovar solicitações em um dispositivo móvel | Microsoft Docs"
-description: "Use um dispositivo móvel para aprovar solicitações criadas no Microsoft Flow."
-services: 
+title: Aprovar solicitações em um dispositivo móvel | Microsoft Docs
+description: Use um dispositivo móvel para aprovar solicitações criadas no Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: 18546c044dc823d703544c48f5cda76a3581e99f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Aprovar solicitações em seu dispositivo móvel usando o Microsoft Flow
 Se um fluxo o identifica como um aprovador e você instalou o aplicativo móvel do Microsoft Flow, receberá uma notificação por push sempre que for solicitada sua aprovação.
@@ -52,7 +52,7 @@ Para concluir este passo a passo, você precisa:
 Se você não tiver nenhuma solicitação de aprovação pendente, crie um [fluxo de aprovação](modern-approvals.md), defina você mesmo como um aprovador e então dispare o fluxo. As solicitações de aprovação aparecem no centro de aprovações alguns segundos depois que o fluxo dispara e envia uma solicitação para aprovação.
 
 ## <a name="approve-requests-and-leave-an-optional-comment"></a>Aprovar solicitações e deixar um comentário opcional
-1. Se você ainda não tiver feito isso, siga as etapas anteriores para [exibir todas as solicitações de aprovação pendente](mobile-approvals.md#view-pending-approval-requests).
+1. Se você ainda não fez isso, siga as etapas anteriores para [exibir solicitações pendentes](mobile-approvals.md#view-pending-requests).
 2. Selecione **APROVAR** na solicitação que você deseja aprovar.
    
     ![selecione aprovar](./media/mobile-approvals/select-approve.png)

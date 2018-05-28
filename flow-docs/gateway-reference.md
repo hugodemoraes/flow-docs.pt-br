@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Entender os gateways de dados locais para o Microsoft Flow
 Use o gateway de dados local com o Microsoft Flow para estabelecer conexões seguras para as fontes de dados locais, como o Microsoft SQL Server.
@@ -192,7 +192,7 @@ Você pode usar o [aplicativo do Teste de Velocidade do Azure](http://azurespeed
 
 ### <a name="high-availabilitydisaster-recovery"></a>Alta disponibilidade/recuperação de desastres
 **Pergunta:** há planos para habilitar cenários de alta disponibilidade com o gateway?
-**Resposta:** isso está previsto, mas ainda não temos uma linha do tempo.
+**Resposta:** sim, a alta disponibilidade [agora está disponível](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each).
 
 **Pergunta:** quais opções estão disponíveis para recuperação de desastres?
 **Resposta:** você pode usar a chave de recuperação para restaurar ou mover um gateway.
