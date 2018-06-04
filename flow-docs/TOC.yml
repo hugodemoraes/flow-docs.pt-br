@@ -122,6 +122,18 @@
       href: gdpr-dsr-export.md
     - name: Solicitações de exclusão
       href: gdpr-dsr-delete.md
+- name: Solicitações DSR para Contas Microsoft
+  items:
+    - name: Resumo
+      href: gdpr-dsr-summary-msa.md
+    - name: Solicitações de descoberta
+      href: gdpr-dsr-discovery-msa.md
+    - name: Solicitações de exportação
+      href: gdpr-dsr-export-msa.md
+    - name: Solicitações de exclusão
+      href: gdpr-dsr-delete-msa.md
+    - name: Fechar solicitações
+      href: gdpr-dsr-accountclose-msa.md
 - name: Referência
   items:
     - name: Visão geral das regiões

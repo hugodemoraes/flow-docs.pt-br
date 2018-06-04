@@ -15,16 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
+ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/01/2018
+ms.locfileid: "34689366"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo usando o Dynamics 365 (online)
 Com um conector do Dynamics 365, crie fluxos iniciados quando ocorre um evento no Dynamics 365, ou em algum outro serviço, que, em seguida, executa uma ação no Dynamics 365, ou em algum outro serviço. 
 
 No Microsoft Flow é possível configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos a fim de sincronizar arquivos, obter notificações, coletar dados e muito mais. Para saber mais, confira [Introdução ao Microsoft Flow](getting-started.md).
+
+> [!IMPORTANT] 
+> Para invocar um gatilho de fluxo, a entidade de engajamento de cliente do Dynamics 365 usada com o fluxo deve estar com o **Controle de Alterações** habilitado. Mais informações: [Habilitar o Controle de Alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>Criar um fluxo de um modelo
 Crie um fluxo usando um dos vários modelos disponíveis, como nestes exemplos:
