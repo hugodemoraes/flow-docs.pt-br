@@ -1,13 +1,13 @@
 ---
-title: "Use para aplicar em cada ação e percorrer uma matriz de itens. | Microsoft Docs"
-description: "Use o Microsoft Flow para percorrer uma matriz de itens para verificar várias condições e tomar ações com base nessas condições."
-services: 
+title: Use para aplicar em cada ação e percorrer uma matriz de itens. | Microsoft Docs
+description: Use o Microsoft Flow para percorrer uma matriz de itens para verificar várias condições e tomar ações com base nessas condições.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
 ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440452"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>Use para aplicar em cada ação no Microsoft Flow e processar uma lista de itens periodicamente
 Vários gatilhos podem iniciar imediatamente um fluxo com base em um evento, como quando um novo email chega na caixa de entrada. Os gatilhos são ótimos, mas, às vezes, você deseja executar um fluxo que consulta uma fonte de dados em uma agenda predefinida, tomando certas ações com base nas propriedades dos itens na fonte de dados. Para fazer isso, o fluxo pode ser iniciado em uma agenda (por exemplo, uma vez por dia) e usar uma ação de loop como **Aplicar em cada** para processar uma lista de itens. Por exemplo, você pode usar **Aplicar em cada** para atualizar os registros em um banco de dados ou uma lista de itens no Microsoft SharePoint.

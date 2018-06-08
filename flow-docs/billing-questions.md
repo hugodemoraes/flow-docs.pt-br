@@ -1,13 +1,13 @@
 ---
-title: "Perguntas sobre cobrança e medição | Microsoft Docs"
-description: "Respostas para perguntas frequentes sobre cobrança e medição no Microsoft Flow"
-services: 
+title: Perguntas sobre cobrança e medição | Microsoft Docs
+description: Respostas para perguntas frequentes sobre cobrança e medição no Microsoft Flow
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: aftowen
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 11/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 302dc02e24b23b68e842ead001beb77b08e12aeb
-ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "27763185"
 ---
 # <a name="billing-and-metering-questions"></a>Perguntas sobre medição e cobrança
 

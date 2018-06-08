@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
 ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442108"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>Adicione várias ações e opções avançadas a um fluxo
 Personalize um fluxo, adicionando um ou mais opções avançadas e várias ações com o mesmo gatilho. Por exemplo, adicione uma opção avançada que envia uma mensagem de email como prioridade alta. Quando um item é adicionado a uma lista do SharePoint, além de enviar um email, crie um arquivo no Dropbox que contém as mesmas informações.

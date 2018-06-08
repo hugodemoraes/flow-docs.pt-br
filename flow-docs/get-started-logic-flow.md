@@ -1,13 +1,13 @@
 ---
 title: Automatizar as tarefas criando um fluxo | Microsoft Docs
-description: "Crie um fluxo que execute automaticamente uma ou mais ações, como enviar email, quando ocorrerem eventos como alguém adicionar uma linha a uma lista do SharePoint."
-services: 
+description: Crie um fluxo que execute automaticamente uma ou mais ações, como enviar email, quando ocorrerem eventos como alguém adicionar uma linha a uma lista do SharePoint.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/28/2018
 ms.author: deonhe
 ms.openlocfilehash: 911be014dd6f57a80be7c65d87cb2d5d475c88e1
-ms.sourcegitcommit: 2dcb94f85c0029f920329c861b6a0f1f8972c191
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29716268"
 ---
 # <a name="create-a-flow-in-microsoft-flow"></a>Criar um fluxo no Microsoft Flow
 

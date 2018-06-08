@@ -1,13 +1,13 @@
 ---
-title: "Exiba, aprove ou rejeite as solicitações de aprovação. | Microsoft Docs"
-description: "Saiba como exibir, aprovar ou rejeitar as solicitações de aprovação no Microsoft Flow."
-services: 
+title: Exiba, aprove ou rejeite as solicitações de aprovação. | Microsoft Docs
+description: Saiba como exibir, aprovar ou rejeitar as solicitações de aprovação no Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/15/2017
 ms.author: deonhe
 ms.openlocfilehash: 016673948ffaeaf98e81cc2c561d9ff9f5f627e4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439516"
 ---
 # <a name="manage-approval-requests-in-microsoft-flow"></a>Gerenciar solicitações de aprovação no Microsoft Flow
 O Microsoft Flow facilita a automatizar os [processos do fluxo de trabalho de aprovação](modern-approvals.md). Neste passo a passo, você aprenderá a exibir, aprovar e rejeitar as solicitações de aprovação enviadas do Microsoft Flow.

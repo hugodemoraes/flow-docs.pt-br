@@ -1,12 +1,12 @@
 ---
-title: "Links de conteúdo do conector personalizado | Microsoft Docs"
-description: "Links para conteúdo para criar, usar, compartilhar e certificar conectores personalizados."
-services: 
+title: Links de conteúdo do conector personalizado | Microsoft Docs
+description: Links para conteúdo para criar, usar, compartilhar e certificar conectores personalizados.
+services: ''
 suite: flow
-documentationcenter: 
+documentationcenter: ''
 author: sunaysv
 manager: anneta
-editor: 
+editor: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,10 +15,11 @@ ms.workload: na
 ms.date: 01/29/2018
 ms.author: sunayv
 ms.openlocfilehash: 045ae7c50cae1cf62782b33d3a6465fab89d033f
-ms.sourcegitcommit: 2d6cd915a666e9032882871f70aadaea4f877c6f
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "28892012"
 ---
 # <a name="custom-connectors-in-microsoft-flow"></a>Conectores personalizados no Microsoft Flow
 

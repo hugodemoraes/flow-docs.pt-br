@@ -26,10 +26,11 @@ ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
 ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31008627"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>Usar funções nas condições para verificar diversos valores
 Neste passo a passo, você aprenderá a usar expressões e **Condições** para comparar diversos valores no **modo Avançado**.

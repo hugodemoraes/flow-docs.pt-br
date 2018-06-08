@@ -1,13 +1,13 @@
 ---
-title: "Saiba como adicionar outros proprietários a um fluxo e criar fluxos de equipe | Microsoft Docs"
-description: "O Microsoft Flow facilita a automatização de tarefas repetitivas. Você pode adicionar usuários ou grupos como proprietários e colaborar com eles para criar e gerenciar fluxos."
-services: 
+title: Saiba como adicionar outros proprietários a um fluxo e criar fluxos de equipe | Microsoft Docs
+description: O Microsoft Flow facilita a automatização de tarefas repetitivas. Você pode adicionar usuários ou grupos como proprietários e colaborar com eles para criar e gerenciar fluxos.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
 ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439678"
 ---
 # <a name="create-team-flows"></a>Criar fluxos de equipe
 Crie um fluxo de equipe ao adicionar outras pessoas na sua organização como proprietários. Todos os proprietários de um fluxo de equipe podem executar essas ações:

@@ -2,11 +2,11 @@
 title: Criar fluxos
 metadata:
   title: Criar fluxos | Microsoft Flow
-  description: "Aprenda a criar fluxos que copiam e coletam dados, bem como fluxos que enviam notificações. Execute seu fluxos com base em uma agenda ou sob demanda a partir de um botão."
+  description: Aprenda a criar fluxos que copiam e coletam dados, bem como fluxos que enviam notificações. Execute seu fluxos com base em uma agenda ou sob demanda a partir de um botão.
   audience: Business User
   level: Beginner
   nextTutorialHref: work-with-approvals
-  nextTutorialTitle: "Trabalhar com aprovações"
+  nextTutorialTitle: Trabalhar com aprovações
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -15,21 +15,23 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
   ms.openlocfilehash: 6653c723ba9c3dfce8c953b86e3b54d5226cd258
-  ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+  ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 06/04/2018
+  ms.locfileid: "26580780"
 items:
 - durationInMinutes: 1
-  content: "Aprenda a criar fluxos que copiam e coletam dados, bem como fluxos que enviam notificações. Execute seu fluxos com base em uma agenda ou sob demanda a partir de um botão.\n"
-- title: "Criar um fluxo de botão"
+  content: >
+    Aprenda a criar fluxos que copiam e coletam dados, bem como fluxos que enviam notificações. Execute seu fluxos com base em uma agenda ou sob demanda a partir de um botão.
+- title: Criar um fluxo de botão
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/s8ozmlVRV-Q?rel=0]
 
 
     [!INCLUDE [learning-create-button-flow](../includes/learning-create-button-flow.md)]
-- title: "Obter notificações"
+- title: Obter notificações
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/VEHKGLY0hq4?rel=0]
@@ -71,4 +73,4 @@ items:
 
 
     [!INCLUDE [learning-create-pdf](../includes/learning-create-pdf.md)]
-- content: "Você concluiu a seção **Criar fluxos** da Aprendizagem Guiada do Microsoft Flow.\0"
+- content: Você concluiu a seção **Criar fluxos** da Aprendizagem Guiada do Microsoft Flow.

@@ -1,13 +1,13 @@
 ---
-title: "Entender as operações de dados | Microsoft Docs"
-description: "Saiba como realizar operações, como criar uma tabela HTML, uma tabela CSV, compor, unir, selecionar e filtrar uma matriz com o Microsoft Flow."
-services: 
+title: Entender as operações de dados | Microsoft Docs
+description: Saiba como realizar operações, como criar uma tabela HTML, uma tabela CSV, compor, unir, selecionar e filtrar uma matriz com o Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
 ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440902"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>Usar as operações de dados com o Microsoft Flow
 Neste passo a passo, conheça algumas das operações de dados populares do Microsoft Flow, como compor, unir, selecionar, filtrar uma matriz, criar uma tabela e analisar o JSON, disponíveis para manipular os dados ao criar fluxos.

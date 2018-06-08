@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442306"
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Gerenciar aprovações sequenciais com o Microsoft Flow
 Alguns fluxos de trabalho exigem aprovação prévia antes do aprovador final ser solicitado a desconectar. Por exemplo, uma empresa pode ter uma política de aprovação sequencial que requer aprovação prévia para faturas acima de $1000.00 antes de serem aprovadas pelo departamento de Finanças.

@@ -1,13 +1,13 @@
 ---
-title: "Iniciar os fluxos com botões Flic | Microsoft Docs"
-description: "Inicie facilmente os fluxos de botão com botões físicos Flic da Shortcut Labs."
-services: 
+title: Iniciar os fluxos com botões Flic | Microsoft Docs
+description: Inicie facilmente os fluxos de botão com botões físicos Flic da Shortcut Labs.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/19/2017
 ms.author: deonhe
 ms.openlocfilehash: 518834103c1a17ef2f5af218eae43ccab4e5fda2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440830"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Executar seu fluxos pressionando um botão inteligente Flic (Visualização)
 Dispare seus fluxos pressionando um botão físico, conhecido como Flic, da Shortcut Labs. Por exemplo, pressione um Flic para controlar o horário de trabalho, bloquear seu calendário, contar os visitantes em um evento ou salvar as localizações geográficas.

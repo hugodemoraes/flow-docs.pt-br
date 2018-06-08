@@ -1,13 +1,13 @@
 ---
 title: Criar um fluxo usando o telefone | Microsoft Docs
-description: "Crie um fluxo de um modelo que, por exemplo, envia uma notificação por push quando você recebe uma mensagem de um endereço especificado"
-services: 
+description: Crie um fluxo de um modelo que, por exemplo, envia uma notificação por push quando você recebe uma mensagem de um endereço especificado
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
 ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440290"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Crie um fluxo usando o telefone com o Microsoft Flow
 Crie um fluxo através do seu telefone, usando um modelo que pode ser encontrado pesquisando em uma lista de serviços, navegando por categorias ou especificando palavras-chave. Siga as etapas deste tópico para criar um fluxo que envia uma notificação por push para o seu telefone, ao receber mensagens de seu gerente.

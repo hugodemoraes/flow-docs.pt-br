@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442252"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Compartilhar fluxos de botão no Microsoft Flow
 No aplicativo móvel do Microsoft Flow, você pode compartilhar [fluxos de botão](introduction-to-button-flows.md) (botões) com outros usuários ou grupos em sua organização. Quando você compartilha um botão, a pessoa ou grupo com quem você compartilha pode executar seu botão, da mesma maneira que executam seus próprios botões. Você também pode [compartilhar um link](share-buttons.md#re-share-a-button) para botões que outra pessoa compartilhou com você. Você pode [parar de compartilhar](share-buttons.md#stop-sharing-a-button) seus botões a qualquer momento.
