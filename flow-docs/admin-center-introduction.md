@@ -1,13 +1,13 @@
 ---
-title: "Use o centro de administração para gerenciar os ambientes e as políticas de dados. | Microsoft Docs"
-description: "O centro de administração do Microsoft Flow é usado pelo locatário e administradores de ambiente para gerenciar as políticas de dados e os ambientes para as implantações do Microsoft Flow."
-services: 
+title: Use o centro de administração para gerenciar os ambientes e as políticas de dados. | Microsoft Docs
+description: O centro de administração do Microsoft Flow é usado pelo locatário e administradores de ambiente para gerenciar as políticas de dados e os ambientes para as implantações do Microsoft Flow.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/31/2017
 ms.author: deonhe
 ms.openlocfilehash: 368b208a6f1d47f76a6f195edcd8055a03c06800
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981313"
 ---
 # <a name="the-admin-center"></a>O Centro de Administração
 

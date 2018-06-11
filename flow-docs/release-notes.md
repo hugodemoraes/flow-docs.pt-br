@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/12/2018
+ms.date: 06/04/2018
 ms.author: stepsic
-ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
-ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
+ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
+ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755565"
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -45,7 +46,17 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="whats-new"></a>Novidades
 
-### <a name="release-2014-05-01"></a>Versão de 1º de maio de 2014
+### <a name="release-2018-05-21"></a>Versão de 21-05-2018
+
+- **Fluxos "pertencentes" a bibliotecas e listas do SharePoint** – os fluxos que funcionam com as listas e bibliotecas do SharePoint podem ser compartilhados com essas listas ou bibliotecas. Portanto, em vez de ser compartilhado com indivíduos ou grupos, eles são compartilhados com qualquer pessoa que tenha acesso à lista. Quando os usuários são adicionados ou removidos da lista ou da biblioteca, sua participação é alterada automaticamente de acordo com a ação executada.
+- **Análise de detalhes do erro** – um novo relatório inserido que fornece informações sobre todos os erros que ocorrem dentro de um fluxo.
+- **Compartilhar fluxos com grupos do Office 365** – você pode fazer com que um grupo moderno do Office 365 seja o proprietário de um fluxo e pode compartilhar fluxos de botão com os grupos do Office 365 para que qualquer pessoa no grupo possa executar o fluxo.
+- **Melhorias do conector do SharePoint** – há duas novas funcionalidades do conector do SharePoint: disparar fluxos quando arquivos ou itens são excluídos e chamar um ponto de extremidade HTTP compatível com a API REST do SharePoint.
+- **Dois novos conectores** – foi adicionado o suporte para o Azure Data Factory e o MailParser
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/) sobre esta versão.
+
+### <a name="release-2018-05-01"></a>Versão 01-05-2018
 
 - **Rich text em mensagens de aprovação** – use Markdown para formatar os detalhes da aprovação que você envia.
 - **Botões com várias entradas de seleção** – crie botões de fluxo que usam uma lista de seleção múltipla para coletar mais de um valor por vez.

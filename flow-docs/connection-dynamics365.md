@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
-ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
+ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
+ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2018
-ms.locfileid: "34689366"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799661"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo usando o Dynamics 365 (online)
 Com um conector do Dynamics 365, crie fluxos iniciados quando ocorre um evento no Dynamics 365, ou em algum outro serviço, que, em seguida, executa uma ação no Dynamics 365, ou em algum outro serviço. 
@@ -91,6 +91,11 @@ Este passo a passo mostra como criar uma tarefa no [Wunderlist](https://www.wund
 8. Em **ID da Lista**, selecione **caixa de entrada**.
 9. Em **Título**, selecione **Assunto** no painel de conteúdo dinâmico.
 10. Clique ou toque em **Criar fluxo**.  
+
+## <a name="trigger-based-logic"></a>Lógica baseada em gatilho
+Gatilhos como **Quando um registro é criado**, **Quando um registro é atualizado** e **Quando um registro é excluído** iniciam o fluxo em alguns minutos depois que o evento que ocorre.  Em casos raros, o fluxo pode levar até 2 horas para ser disparado.
+
+Quando o gatilho ocorre, o fluxo recebe uma notificação, mas o fluxo é executado nos dados que existem no momento em que a ação é executada.  Por exemplo, se o fluxo é disparado quando um novo registro é criado e você atualiza o registro duas vezes antes da execução do fluxo, o fluxo é executado apenas uma vez com os dados mais recentes.
 
 ## <a name="specify-advanced-options"></a>Especificar opções avançadas
 Quando você adiciona uma etapa a um fluxo, clique ou toque em **Mostrar opções avançadas** para adicionar um filtro ou uma consulta de ordenar por que controla como os dados são filtrados no fluxo.
