@@ -2,10 +2,10 @@ Neste tópico, você aprenderá a **criar um fluxo de botão** para a Contoso Fl
 
 Os fluxos de botão podem ser usados para **enviar email** para uma equipe e **alertá-los de tarefas** a serem executadas. A **Propriedade** dos fluxos **pode ser atribuída a um** trabalhador ou **compartilhada por vários** membros de uma equipe.  
 
-1. Primeiro, vá para o [site do Microsoft Flow](https://ms.flow.microsoft.com) e conecte-se.
-2. Após se conectar, selecione **Meus fluxos** e, em seguida, **Criar de um modelo em branco**.
+1. Primeiro, vá para o [site do Microsoft Flow](https://ms.flow.microsoft.com) e entre.
+2. Após entrar, selecione **Meus fluxos** e **Criar a partir do zero**.
    
-    ![Criar de um modelo em branco](./media/learning-create-button-flow/2-create-from-blank.png)
+    ![Criar a partir do zero](./media/learning-create-button-flow/2-create-from-blank.png)
    
     A primeira coisa que você precisará é de um gatilho. O fluxo de botão é uma boa opção. 
 3. Se ele não existir em sua lista, selecione **Pesquisar centenas de conectores e gatilhos** na parte inferior da página e digite **botão**, e ele será exibido para você. 

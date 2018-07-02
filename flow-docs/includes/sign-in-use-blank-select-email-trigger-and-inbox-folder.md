@@ -1,4 +1,4 @@
-1. Entre no [Microsoft Flow](https://flow.microsoft.com) e, em seguida, selecione a guia **Meus fluxos**.
+1. Entre no [Microsoft Flow](https://flow.microsoft.com) e selecione a guia **Meus fluxos**.
 2. Selecione **Criar do zero**.
    
     ![fluxo em branco](media/email-triggers/email-triggers-create-blank.png)
