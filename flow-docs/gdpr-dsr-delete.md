@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561300"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175122"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Responder às Solicitações de exclusão de entidade de dados de GDPR do Microsoft Flow
 
@@ -258,10 +258,10 @@ Como administrador, você tem duas decisões a serem tomadas ao processar uma so
 
 1. Se você determinar que o ambiente não está sendo usado por outras pessoas em sua organização, opte por excluir o ambiente
 1. Se você determinar que o ambiente ainda é necessário, opte por não excluir o ambiente e adicione você mesmo (ou outro usuário em sua organização) como Administrador do Ambiente.
-    > [!IMPORTANT]
-    > A exclusão de um ambiente excluirá permanentemente todos os recursos dentro do ambiente, incluindo todos os aplicativos, fluxos, conexões etc., portanto, examine o conteúdo de um ambiente antes da exclusão.
-    >
-    >
+> [!IMPORTANT]
+> A exclusão de um ambiente excluirá permanentemente todos os recursos dentro do ambiente, incluindo todos os aplicativos, fluxos, conexões etc., portanto, examine o conteúdo de um ambiente antes da exclusão.
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>Dê acesso aos ambientes de um usuário pelo Centro de Administração do Microsoft Flow
 
