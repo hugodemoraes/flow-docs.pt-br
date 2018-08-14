@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453298"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718294"
 ---
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
 ## <a name="audience-and-strategy"></a>Público e estratégia
@@ -80,7 +80,7 @@ Modelos são fluxos previamente criados para cenários comuns e populares. O uso
 Você pode se conectar a mais de 100 serviços padrão da Microsoft e de terceiros, como o Office 365, Twitter, SharePoint, OneDrive, Dropbox, SQL e muito mais. Você também pode se conectar aos serviços premium, como Salesforce e o Serviço de Dados Comum para PowerApps.
 
 ### <a name="how-do-i-connect-to-a-rest-api-in-my-flow"></a>Como me conectar a uma API REST em meu fluxo?
-Você pode se conectar a qualquer API REST que use JSON e ofereça suporte a pelo menos um dos mais de 10 métodos de autenticação ao criar [um conector personalizado](register-custom-api.md).
+Você pode se conectar a qualquer API REST que use JSON e ofereça suporte a pelo menos um dos mais de 10 métodos de autenticação ao criar [um conector personalizado](developer/register-custom-api.md).
 
 ### <a name="how-do-i-connect-to-sql-server-and-other-on-premises-data-sources"></a>Como me conectar ao SQL Server e outras fontes de dados locais?
 Você pode se conectar aos serviços na rede local usando o [gateway de dados locais](gateway-manage.md).
