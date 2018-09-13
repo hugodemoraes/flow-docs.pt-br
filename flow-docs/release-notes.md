@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2018
+ms.date: 07/21/2018
 ms.author: stepsic
-ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
-ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
+ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755565"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774293"
 ---
 # <a name="release-notes"></a>Notas de versão
 ## <a name="top-questions"></a>Principais perguntas
@@ -45,6 +45,35 @@ ms.locfileid: "34755565"
 3. Os gatilhos do arquivo não serão acionados para os arquivos sendo adicionados dentro das pastas aninhadas dentro da pasta selecionada.
 
 ## <a name="whats-new"></a>Novidades
+
+### <a name="release-2018-07-23"></a>Versão de 23-07-2018
+
+- **Criar e executar fluxos no Excel** – com o novo botão **Fluxo** (acessado na guia **Dados** na faixa de opções), você pode criar e disparar automações do Flow nos dados da tabela no Excel. Automatize o processamento de dados ou a cópia/importação dos dados.
+- **Criar um fluxo do processo empresarial** – um fluxo do processo empresarial é um novo tipo de fluxo interativo humano com estado, baseado no Common Data Service for Apps. Use esses novos fluxos para definir um conjunto de estágios e etapas para as pessoas seguirem. É possível mover-se para frente e para trás, conforme necessário.
+- **Criar um fluxo para o Microsoft To-Do no Outlook Web App** – se alguém for \@mencionado no Outlook Web App, ele verá um atalho para criar um fluxo. Este fluxo cria automaticamente as tarefas para a pessoa \@mencionada no Microsoft To-Do, com base no conteúdo do email.
+- **Suporte ao modo de exibição do SharePoint** – o conector do SharePoint agora suporta a seleção de um modo de exibição específico do SharePoint em gatilhos e ações. Isso filtra as colunas para apenas os campos que estão no modo de exibição selecionado.
+- **Quatro novos conectores** – adicionado o Azure IoT Central – uma solução de software como serviço (SaaS) de IoT altamente escalonável – Survey 123, LMS365 e ProjectWise Design Integration.
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/excel-bpf-todo-and-more/) sobre esta versão.
+
+### <a name="release-2018-06-29"></a>Versão de 29-06-2018
+
+- **Fluxo de solicitação de aprovação integrado no SharePoint** – ao selecionar um arquivo ou item no SharePoint, você verá um novo fluxo de **Solicitação de aprovação**. Este fluxo não requer nenhuma configuração ou instalação e envia uma solicitação de aprovação com um único clique.
+- **Dois novos conectores** – adicionados o Cloud Connect Studio e PoliteMail.
+- **Aprimoramentos no histórico e criar página** – estamos atualizando a lista Histórico de execuções para incluir os tempos exatos de execução, e o Criar página adicionando um novo vídeo passo a passo.
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/request-sign-off-four-connectors/) sobre esta versão.
+
+### <a name="release-2018-06-08"></a>Versão de 08-06-2018
+
+- **Cmdlets do PowerShell** – os criadores de fluxo e os administradores de locatários agora podem usar o PowerShell para gerenciar seus fluxos de forma programática.
+- **Melhorias no bot do Flow no Teams** – o bot do Flow no Microsoft Teams pode executar botões de fluxo e descrever seus fluxos.
+- **Três novos conectores** – adicionado suporte ao Marketo, ElasticOCR e DynamicSignal. 
+- **Informações adicionais de compartilhamento** – adicionadas outras informações ao compartilhar ou executar fluxos compartilhados, para que você saiba exatamente quais permissões as outras pessoas receberão.
+- **URLs do SharePoint de filtragem automática** – ao copiar e colar uma URL do SharePoint no navegador, ela pode conter texto adicional além do site, esse texto será removido automaticamente para que você possa se conectar apenas no site.
+- **Documentação sobre solicitações de RGPD** – criamos um guia abrangente e um conjunto de ferramentas para organizações empresariais manusearem as solicitações de Direitos dos Titulares dos Dados.
+
+[Leia mais e faça perguntas](https://flow.microsoft.com/blog/powershell-flow-bot-marketo/) sobre esta versão.
 
 ### <a name="release-2018-05-21"></a>Versão de 21-05-2018
 

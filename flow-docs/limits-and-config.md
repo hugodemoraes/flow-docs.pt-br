@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 06/19/2018
 ms.author: stepsic
-ms.openlocfilehash: 0595fa9113d85c6517392149f510a3a11df36061
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+ms.openlocfilehash: dcdd82b358737867372c1adece907158fa2ee77b
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519860"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774272"
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Limites e configuração no Microsoft Flow
 Este tópico contém informações sobre os limites atuais e detalhes da configuração para os fluxos.
@@ -46,7 +46,9 @@ Estes são os limites para uma única solicitação de saída.
 
 | Nome | Limite |
 | --- | --- |
-| Tentativas de repetição |4 |
+| Tentativas de repetição |90 | O padrão é 4. Para alterar as configurações de ação de uso padrão | 
+| Atraso máximo de repetição |1 dia | |
+| Atraso mínimo de repetição |5 segundos | |
 
 ## <a name="run-duration-and-retention"></a>Retenção e duração da execução
 Estes são os limites para executar um único fluxo.
@@ -64,10 +66,12 @@ Estes são os limites para executar um único fluxo.
 
 | Nome | Limite | Anotações |
 | --- | --- | --- |
-| Itens ForEach |5,000 |Você pode usar a ação de filtro para filtrar as matrizes maiores quando necessário. |
+| Aplicar a cada item |100.000 |100.000 só está disponível para os planos premium. Caso contrário, você está limitado a 5.000. Você pode usar a ação de filtro para filtrar as matrizes maiores quando necessário. |
 | Até iterações |5,000 | |
-| Itens SplitOn |5,000 | |
-| Paralelismo de ForEach |1 | |
+| Itens SplitOn |100.000 |Como se aplica a cada um, o limite é de 5.000, a menos que você esteja em um plano premium. |
+| Aplicar a cada paralelismo |50 |Por padrão, os loops são executados em sequência (basicamente, o paralelismo é 1). Você pode configurar até 50 em paralelo. |
+| Execuções de ações por 5 minutos | 100.000 | Além disso, você pode distribuir uma carga de trabalho entre mais de um fluxo, conforme necessário. |
+| Chamadas de saída simultâneas de ações | Aproximadamente 2.500 | Reduza o número de solicitações simultâneas ou reduza a duração, conforme necessário. | 
 
 ## <a name="definition-limits"></a>Limites de definição
 Estes são os limites para um único fluxo.
