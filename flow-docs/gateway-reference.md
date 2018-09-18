@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 95081295bfe0fd6c904876aaf70974575a7986c1
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453252"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690895"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Entender os gateways de dados locais para o Microsoft Flow
 Use o gateway de dados local com o Microsoft Flow para estabelecer conexões seguras para as fontes de dados locais, como o Microsoft SQL Server.

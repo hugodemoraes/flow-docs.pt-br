@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39520067"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727172"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Responder às Solicitações de exclusão de entidade de dados de GDPR do Microsoft Flow
 
@@ -276,7 +281,7 @@ Com a introdução do Common Data Service for Apps, se um banco de dados é cria
 Para saber mais sobre como remover a permissão de um usuário em um ambiente, navegue até [Usar ambientes no Microsoft Flow](https://docs.microsoft.com/flow/environments-overview-admin).
 
 ## <a name="delete-gateway-settings"></a>Excluir configurações de gateway
-Para responder a solicitações de exclusão de titular dos dados de gateways de dados locais clique [aqui](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration).
+Para responder a solicitações de exclusão de titular dos dados de gateways de dados locais clique [aqui](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration).
 
 ## <a name="delete-user-details"></a>Excluir detalhes do usuário
 Os detalhes do usuário fornecem uma ligação entre um usuário e um locatário específico. Antes de executar esse comando, verifique se todos os fluxos desse usuário foram atribuídos novamente e/ou excluídos. Depois que isso for concluído, o administrador poderá excluir os detalhes do usuário chamando o cmdlet **Remove-AdminFlowUserDetails** e passando a ID de objeto do usuário.

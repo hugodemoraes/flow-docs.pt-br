@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34308707"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689952"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Introdução aos fluxos de botão com a entrada do usuário
 Crie um fluxo de botão para executar tarefas de rotina com um simples toque em um botão. Personalize seu fluxo permitindo que o usuário forneça detalhes específicos que serão usados quando o fluxo for executado. Este tópico ajuda você a criar um fluxo de botão que recebe entrada do usuário e a executar o fluxo de botão, destacando como fornecer a entrada do usuário.

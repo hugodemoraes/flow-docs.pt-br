@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
-ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: c28fa7feb743db4616199246d6d517e2e1f6aff9
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440902"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690987"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>Usar as operações de dados com o Microsoft Flow
 Neste passo a passo, conheça algumas das operações de dados populares do Microsoft Flow, como compor, unir, selecionar, filtrar uma matriz, criar uma tabela e analisar o JSON, disponíveis para manipular os dados ao criar fluxos.

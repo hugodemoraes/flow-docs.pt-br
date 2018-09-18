@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: b2cf6c52a2cbaf06fc638fe8fc898689e6d523c4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "29351294"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690786"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Crie um fluxo que utiliza o Common Data Service
 Melhore a eficiência operacional com uma exibição unificada de dados de negócios com a criação de fluxo que usa o [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/). Implante esse banco de dados de negócios seguro que inclui entidades de negócios padrão bem formadas (como Vendas, Compras, Atendimento ao cliente e Produtividade) em sua organização. Armazene dados organizacionais em uma ou mais [entidades personalizadas](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/), que oferecem várias vantagens sobre fontes de dados externas, como o Microsoft Excel e Salesforce.
