@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4746fa74911126f3e23ed009dd109a2766dae12a
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: dc1b93553938221c3f1c995b63b984cfff913c06
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690918"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711601"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>Introdução aos tokens de gatilho de botão
 ## <a name="what-are-button-trigger-tokens"></a>O que são os tokens de gatilho de botão?
@@ -97,6 +97,4 @@ Parabéns! Você acabou de criar um fluxo de botão que usa a data e a tokens de
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Compartilhar fluxos de botão](share-buttons.md)
-* [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)  
-* [Saiba mais sobre fluxos](guided-learning/get-started.yml?tutorial-step=1)
-
+* [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)

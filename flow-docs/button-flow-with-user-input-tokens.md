@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: f87b0d93b912799a4977f347d89b12421cf42e70
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689952"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711555"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>Introdução aos fluxos de botão com a entrada do usuário
 Crie um fluxo de botão para executar tarefas de rotina com um simples toque em um botão. Personalize seu fluxo permitindo que o usuário forneça detalhes específicos que serão usados quando o fluxo for executado. Este tópico ajuda você a criar um fluxo de botão que recebe entrada do usuário e a executar o fluxo de botão, destacando como fornecer a entrada do usuário.
@@ -122,7 +122,6 @@ Neste passo a passo, você usará o aplicativo móvel para Microsoft Flow para e
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Compartilhar fluxos de botão](share-buttons.md)
-* [Saiba mais sobre fluxos](guided-learning/get-started.yml?tutorial-step=1)  
 * [Saiba mais sobre fluxos de botão](introduction-to-button-flows.md)  
 * [Saiba mais sobre fluxos de botão com tokens de gatilho](introduction-to-button-trigger-tokens.md)  
 
