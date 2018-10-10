@@ -16,12 +16,17 @@ ms.date: 03/28/2018
 ms.topic: hub-page
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 05bf99aa91b5cfe8635cc7be72669b4d1012ef49
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 03eebb10c1155894b9dc1db5a0283cd72d78a1ae
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34479748"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711578"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -56,16 +61,16 @@ ms.locfileid: "34479748"
                     <a href="#start-all"></a>
                     <ul id="start-all" class="cardsC">
                         <li>
-                            <a href="./guided-learning/index.yml">
+                            <a href="https://docs.microsoft.com/learn/paths/automate-process-using-flow">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" /><br/>                                            </div>
+                                                <img src="media/index/guidedlearningtour.svg" alt="Learn Microsoft Flow" /><br/>                                            </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Fazer o tour de aprendizagem guiada</h3>
+                                            <h3>Conheça o Microsoft Flow</h3>
                                             <p>Comece sua jornada de aprendizagem com essa coleção sequenciada de cursos para reconhecer as capacidades abrangentes e poderosas do Microsoft Flow.</p>
                                         </div>
                                     </div>
@@ -391,6 +396,44 @@ ms.locfileid: "34479748"
                                         <div class="cardText">
                                             <h3>Expandir seus fluxos com Aplicativos Lógicos</h3>
                                             <p>Os Aplicativos Lógicos do Azure fornecem um conjunto de recursos mais rico do que o incluído no Microsoft Flow. Basta salvar qualquer fluxo como um modelo de Aplicativos Lógicos e gerenciá-lo como qualquer outro recurso de Aplicativos Lógicos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/business-process-flows-overview">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Drive data collection and workflow consistency." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Impulsione a coleta de dados e a consistência de fluxo de trabalho</h3>
+                                            <p>Impulsione a coleta de dados da unidade e a consistência de fluxo de trabalho por meio de fluxos de processos empresariais.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/workflow-processes">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service (CDS) for apps." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Usar o CDS (Common Data Service) para aplicativos</h3>
+                                            <p>Usar o CDS (Common Data Service) para aplicativos com processos de fluxo de trabalho.</p>
                                         </div>
                                     </div>
                                 </div>

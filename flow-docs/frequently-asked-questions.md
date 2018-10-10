@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 15f7a58f6cee58d588cf10976cabf55b800f28ce
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39718294"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711647"
 ---
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
 ## <a name="audience-and-strategy"></a>Público e estratégia
@@ -43,8 +48,23 @@ O Microsoft Flow faz parte de uma plataforma de aplicativos de negócios poderos
 ### <a name="what-do-i-need-to-use-microsoft-flow"></a>O que é necessário para usar o Microsoft Flow?
 Para usar o Microsoft Flow, tudo o que você precisa é de um navegador da Web e um endereço de email.
 
-### <a name="what-browsers-does-microsoft-flow-support"></a>O Microsoft Flow dá suporte a quais navegadores?
-O Microsoft Flow dá suporte ao Microsoft Edge e às versões atuais do Chrome e Safari.
+### <a name="what-browsers-and-devices-can-i-use-with-microsoft-flow"></a>Quais navegadores e dispositivos posso usar com o Microsoft Flow?
+
+Você pode executar o Microsoft Flow em todos os dispositivos e navegadores modernos.
+
+#### <a name="supported-devices"></a>Dispositivos incompatíveis
+
+O Microsoft Flow é executado em dispositivos modernos. Se você precisar gerenciar o Microsoft Flow de um dispositivo móvel, experimente o aplicativo móvel do Microsoft Flow que está disponível no [iPhone](https://itunes.apple.com/app/microsoft-flow/id1094928825?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.microsoft.flow), e [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84?rtc=1#activetab=pivot:overviewtab).
+
+#### <a name="supported-browsers"></a>Navegadores incompatíveis
+
+É recomendável que você use o navegador mais atualizado compatível com o sistema operacional. Os navegadores a seguir são compatíveis:
+
+* Microsoft Edge
+* Internet Explorer 11
+* Safari
+* Chrome
+* Firefox
 
 ### <a name="which-email-addresses-are-supported"></a>Quais endereços de email têm suporte?
 O Microsoft Flow oferece suporte aos endereços de email terminando com qualquer coisa, exceto .gov e .mil.  
@@ -125,6 +145,10 @@ O Microsoft Flow é o sucessor do SharePoint Designer para muitos cenários come
 ### <a name="how-does-microsoft-flow-ensure-that-corporate-data-isnt-accidentally-released-to-social-media-services"></a>Como o Microsoft Flow garante que os dados corporativos não foram acidentalmente liberados para serviços de mídia social?
 Os administradores podem criar [políticas de prevenção contra perda de dados](prevent-data-loss.md) para garantir que somente os serviços sancionados são usados no Microsoft Flow.
 
+### <a name="does-microsoft-flow-support-service-accounts"></a>O Microsoft Flow é compatível com contas de serviço?
+
+Embora seja possível criar fluxos com uma conta de serviço, não recomendamos fazer isso se as credenciais da conta de serviço forem compartilhadas.
+
 ## <a name="licensing"></a>Licenciamento
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>O Microsoft Flow ainda tem uma opção gratuita ou de avaliação?
 Sim. Você pode usar nossa oferta gratuita, que tem direitos do usuário limitados, ou pode inscrever-se para ter uma avaliação gratuita de 90 dias do Microsoft Flow. É possível ativar sua assinatura a qualquer momento durante a avaliação.
@@ -134,5 +158,5 @@ O Microsoft Flow oferece níveis de serviços pagos e gratuitos. [Saiba mais sob
 
 ## <a name="learn-more"></a>Saiba mais
 
-* Faça um [tour de aprendizagem guiada](guided-learning/index.yml) do Microsoft Flow
+* Faça um [tour de aprendizagem guiada](https://docs.microsoft.com/learn/paths/automate-process-using-flow) do Microsoft Flow
 * Conheça os fundamentos do Microsoft Flow no [guia de introdução](getting-started.md)

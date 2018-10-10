@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9a054ab8179d4c2a06cbab95cd2633088bbf7458
-ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
+ms.openlocfilehash: c780b3d305fbd5549f9c7ffc2a23571007dac7a7
+ms.sourcegitcommit: f7985b96afe68b079b7fd4a6d04cd0a042d893e0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45727195"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47188606"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Criar um fluxo usando o Dynamics 365 (online)
 Com um conector do Dynamics 365, crie fluxos iniciados quando ocorre um evento no Dynamics 365, ou em algum outro serviço, que, em seguida, executa uma ação no Dynamics 365, ou em algum outro serviço. 
@@ -61,7 +61,7 @@ Se não houver um modelo disponível para sua necessidade, crie um fluxo do zero
      Para este passo a passo, selecione **Leads**.
    
     ![Detalhes do fluxo](./media/connection-dynamics365/flow-details.png)
-    > [IMPORTANTE] Para o fluxo ser disparado na entidade do Dynamics 365, a definição da entidade deve estar com o Controle de Alterações habilitado. Consulte [Habilitar o Controle de Alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)
+    > [IMPORTANTE] Para o fluxo ser disparado na entidade do Dynamics 365, a definição da entidade precisa estar com o **Controle de Alterações** habilitado. Consulte [Habilitar o Controle de Alterações para controlar a sincronização de dados](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)
     
 7. Clique ou toque em **Nova etapa** e, em seguida, clique ou toque **Adicionar uma ação**.
 8. Clique ou toque em **Dynamics 365 – Criar um novo registro**.

@@ -1,0 +1,1 @@
+Estamos disponibilizando essa versão prévia para que você possa experimentar e nos informar sua opinião. Seus comentários nos ajudarão a priorizar o trabalho para incluir as funcionalidades que você mais precisa. Solicitamos que você envie suas sugestões e problemas encontrados para nós usando nosso site de comentários disponível publicamente:

@@ -1,0 +1,1 @@
+Esperamos alterações nesse recurso, portanto, não o use em produção. Use-o somente em ambientes de desenvolvimento e teste.

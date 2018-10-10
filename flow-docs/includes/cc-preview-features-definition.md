@@ -1,0 +1,1 @@
+A versão prévia do recurso não se destina ao uso em produção e pode ter uma funcionalidade restrita. Esses recursos estão disponíveis antes de um lançamento oficial para que os clientes possam obter acesso antecipado e fornecer comentários.

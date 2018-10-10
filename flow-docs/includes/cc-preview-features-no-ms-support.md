@@ -1,0 +1,1 @@
+A Microsoft não oferece suporte para essa versão prévia do recurso. O Suporte técnico do Microsoft Dynamics 365 não poderá ajudar você com problemas ou dúvidas. A versão prévia do recurso não se destina ao uso em produção e está sujeita a [termos de uso complementares](http://go.microsoft.com/fwlink/p/?LinkId=511446).
