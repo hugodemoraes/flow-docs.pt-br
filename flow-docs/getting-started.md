@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,18 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2017
 ms.author: stepsic
-ms.openlocfilehash: 11c8d9846982cfd372df787b6a7c9e6584d61ae5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439984"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689768"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Introdução ao Microsoft Flow #
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 Bem-vindo! O Microsoft Flow é um serviço com o qual você pode criar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, obter notificações, coletar dados e muito mais.
+
+Os principais tipos de fluxos são [automatizado](get-started-logic-flow.md), [botão](introduction-to-button-flows.md), [agendado](run-scheduled-tasks.md) e [processo empresarial](business-process-flows-overview.md).
+
+Se for um personalizador de participação do cliente do Dynamics 365, você também poderá estar familiarizado com o Common Data Service Clássico para processos de aplicativos que incluem [fluxos de trabalho](configure-workflow-steps.md), [ações](create-actions.md), [fluxos de tarefa móvel](create-mobile-task-flow.md) e [caixas de diálogo](use-cds-for-apps-dialogs.md).
 
 A primeira etapa consiste em [inscrever-se](sign-up-sign-in.md). Mas, se você já tem uma conta do Microsoft Flow, [entre](https://flow.microsoft.com/signin) usando um tablet, computador desktop ou telefone.
 
